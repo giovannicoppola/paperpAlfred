@@ -1,4 +1,4 @@
-# paperAlfred 
+# paperpAlfred 
 
 
 Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://www.alfredapp.com/)
@@ -85,6 +85,7 @@ Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://ww
 <a name="output"></a>
 # Output
 - Alfred returns the top 99 results, numbered. The max number of results returned can be set in Preferences (see __Setting up paperpAlfred__)
+- results are sorted by year (most recent first). Adding `--a` to the query will invert this order. 
 - The main text will return the title.
 - the subtext will return the following: 
 	- record count/total result count
