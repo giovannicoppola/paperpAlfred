@@ -62,6 +62,7 @@ Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://ww
 - entering `ppf` (or optional hotkey) will show a list of folders, the number of items in each folder, and the count of item types
 - select the folder by pressing `return`. PaperpAlfred will now search within that folder. 
 	- `option-return (⌥⏎)` will open the folder in Paperpile
+- Note: Added feature ✅ the Paperpile web interface does not allow to search by folder
 ### Filter by type first
 - entering `ppty` will show a list of publication types and the number of items in each
 - select the folder by pressing `return`. paperpAlfred will now search within that item type
