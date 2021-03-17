@@ -3,7 +3,7 @@
 
 Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://www.alfredapp.com/)
 
-![](images/demo_v1.0.gif "")
+![](demo_v1.0.mov.gif "")
 
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
