@@ -1,5 +1,5 @@
 # paperAlfred 
--------------
+
 
 Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://www.alfredapp.com/)
 
@@ -21,7 +21,7 @@ Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://ww
 
 <a name="setting-up"></a>
 # Setting up paperpAlfred
--------------------------
+
 
 1. Download the workflow from Github and double-click to install paperpAlfred
 2. Download your Paperpile library 
@@ -48,7 +48,8 @@ Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://ww
 
 <a name="basic-usage"></a>
 # Basic Usage 
--------------
+
+
 ## Simple search
 - launch paperpAlfred by typing `ppp` or using an optional hotkey
 - words or names will be searched across all fields
@@ -102,7 +103,7 @@ Once the right item is found, the user has seven options to act on it:
 
 <a name="known-issues"></a>
 # Known issues 
---------------
+
 
 - incomplete records will not be imported
 - special characters (e.g. ü) will need to be entered in order to match the record
@@ -119,11 +120,11 @@ Once the right item is found, the user has seven options to act on it:
 
 <a name="changelog"></a>
 # Changelog
------------
+
 - 03-17-2021: version 1.0
 
 <a name="feedback"></a>
 # Feedback
-----------
+
 Feedback welcome! If you notice a bug, or have ideas for new features, please feel free to get in touch either here, or on the [Paperpile](https://forum.paperpile.com)/[Alfred](https://www.alfredforum.com) forums. 
 
