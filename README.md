@@ -26,7 +26,7 @@ Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://ww
 1. Download the workflow from Github and double-click to install paperpAlfred
 2. Download your Paperpile library 
 	- in Paperpile, cogwheel > Settings > Export > Export to JSON
-		<img src='images/pp_json.png' width="500">
+<img src='images/pp_json.png' width="500">
 3. Set the `PAPLIBRARY` path
 	- Copy the library file path to the clipboard 
 		- In Alfred, search the file, right arrow, select `Copy Path to Clipboard`
@@ -84,7 +84,7 @@ Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://ww
 
 <a name="output"></a>
 # Output
-- Alfred returns the top 99 results, numbered. The max number of results returned can be set in Preferences (see __Setting up paperpAlfred__)
+- Alfred returns the top 99 results, numbered. The max number of results returned can be set in Preferences (see [Setting up](#setting-up))
 - results are sorted by year (most recent first). Adding `--a` to the query will invert this order. 
 - The main text will return the title.
 - the subtext will return the following: 
