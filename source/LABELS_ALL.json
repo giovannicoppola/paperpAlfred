@@ -1,0 +1,2499 @@
+{
+  "items":[
+    {
+      "arg":"Review \ud83d\udc53;;5bc2235c-4678-08e4-9cd8-4bfeeae064b8",
+      "subtitle":"review (323) article (34) commentary (4) book_chapter (2) book (1) ",
+      "title":"Review \ud83d\udc53 (364)"
+    },
+    {
+      "arg":"read \ud83d\udcd8;;253bce21-5f8b-0329-9308-52a9419a5d4c",
+      "subtitle":"article (191) review (105) preprint (17) commentary (6) misc (2) website (1) conference_paper (1) book_chapter (1) news (1) ",
+      "title":"read \ud83d\udcd8 (325)"
+    },
+    {
+      "arg":"myPapers;;9ff6ed2b-38ac-01c3-baa2-67965cb88325",
+      "subtitle":"article (305) review (3) dataset (2) book_chapter (1) ",
+      "title":"myPapers (311)"
+    },
+    {
+      "arg":"FRDA;;67eaf367-f0f4-0f8d-a33a-1531e42fca53",
+      "subtitle":"article (188) review (15) commentary (4) patent (1) ",
+      "title":"FRDA (208)"
+    },
+    {
+      "arg":"GWAS;;e9f5d3ba-8df6-0b0a-a6da-9db3c0cf96ff",
+      "subtitle":"article (145) review (20) preprint (8) commentary (3) ",
+      "title":"GWAS (176)"
+    },
+    {
+      "arg":"microglia;;a860eb53-bae4-0652-b004-683d02bb9654",
+      "subtitle":"article (81) review (61) preprint (4) commentary (2) book_chapter (1) ",
+      "title":"microglia (149)"
+    },
+    {
+      "arg":"ICNN;;0c6b0e90-0603-0a72-a4b2-37100ce1a222",
+      "subtitle":"article (142) review (2) dataset (1) ",
+      "title":"ICNN (145)"
+    },
+    {
+      "arg":"PrecisionMedicine;;b8468e8c-1677-09ed-a009-ee2fad3bc8d4",
+      "subtitle":"article (98) review (39) commentary (3) preprint (1) book (1) ",
+      "title":"PrecisionMedicine (142)"
+    },
+    {
+      "arg":"C9orf72;;3a2b081d-dee6-0b2f-9b8a-e2b7184608e6",
+      "subtitle":"article (107) review (27) commentary (3) preprint (2) misc (1) ",
+      "title":"C9orf72 (140)"
+    },
+    {
+      "arg":"GT;;a1015349-767c-0aee-862b-e876edc58f0a",
+      "subtitle":"article (83) review (42) preprint (5) commentary (1) ",
+      "title":"GT (131)"
+    },
+    {
+      "arg":"apoe;;20c36c28-c3db-08fd-9750-7a5c2dec5cfb",
+      "subtitle":"article (96) review (26) preprint (5) commentary (1) ",
+      "title":"apoe (128)"
+    },
+    {
+      "arg":"PFBC;;e8d3bc0b-6253-0f82-b035-8d549a1a75b4",
+      "subtitle":"article (97) review (15) book_chapter (4) commentary (2) ",
+      "title":"PFBC (118)"
+    },
+    {
+      "arg":"AD;;9370d2bc-c262-0025-836c-57be21acdb0c",
+      "subtitle":"article (70) review (28) commentary (1) news (1) ",
+      "title":"AD (100)"
+    },
+    {
+      "arg":"MS;;21629f19-bf5d-0871-a550-b66e2c0d31e6",
+      "subtitle":"article (52) review (37) commentary (5) preprint (2) conference_paper (1) misc (1) ",
+      "title":"MS (98)"
+    },
+    {
+      "arg":"MyAbstracts;;5cd56ff8-37cd-067b-a53d-ff150ddb01f9",
+      "subtitle":"conference_paper (61) article (33) misc (1) ",
+      "title":"MyAbstracts (95)"
+    },
+    {
+      "arg":"Methylation;;7bc5b915-12fa-06a2-b0d1-04ff76b1424e",
+      "subtitle":"article (70) review (24) ",
+      "title":"Methylation (94)"
+    },
+    {
+      "arg":"GRN;;cbf3bda9-66af-008c-9f00-3de395441a3c",
+      "subtitle":"article (79) review (12) commentary (1) ",
+      "title":"GRN (92)"
+    },
+    {
+      "arg":"statisticalGenetics;;42150b87-e929-02b2-878d-4ff7d473d121",
+      "subtitle":"article (62) review (25) preprint (4) commentary (1) ",
+      "title":"statisticalGenetics (92)"
+    },
+    {
+      "arg":"CNV;;501db7f7-1f85-02e9-afae-7d680af7d158",
+      "subtitle":"article (68) review (18) preprint (3) commentary (2) ",
+      "title":"CNV (91)"
+    },
+    {
+      "arg":"17q21.31;;15f2c83b-46b4-04ac-887e-4478a95518ff",
+      "subtitle":"article (77) review (7) preprint (2) news (2) book_chapter (1) ",
+      "title":"17q21.31 (89)"
+    },
+    {
+      "arg":"classics \ud83c\udfdb;;911870f1-c894-0542-a145-9ad29faacf82",
+      "subtitle":"article (64) review (17) conference_paper (1) book (1) ",
+      "title":"classics \ud83c\udfdb (83)"
+    },
+    {
+      "arg":"eQTL;;49fd3437-0159-0980-8bee-32e4f8cb9b1b",
+      "subtitle":"article (69) review (9) preprint (2) book_chapter (1) commentary (1) ",
+      "title":"eQTL (82)"
+    },
+    {
+      "arg":"GeneticsOf;;5f4a10df-55c3-060c-a1ef-9773ae717fae",
+      "subtitle":"review (69) article (10) preprint (1) book_chapter (1) ",
+      "title":"GeneticsOf (81)"
+    },
+    {
+      "arg":"HLA;;d3056ca2-c483-0208-b80e-121a0dad6c5c",
+      "subtitle":"article (55) review (20) preprint (4) misc (1) book (1) ",
+      "title":"HLA (81)"
+    },
+    {
+      "arg":"tau;;e5ac8099-b890-0b5a-8837-ae0219cbc070",
+      "subtitle":"article (46) review (26) commentary (4) preprint (2) book_chapter (2) book (1) ",
+      "title":"tau (81)"
+    },
+    {
+      "arg":"PRS;;672586d8-421e-061f-b16e-4067e962824d",
+      "subtitle":"article (51) review (18) preprint (9) commentary (2) conference_paper (1) ",
+      "title":"PRS (81)"
+    },
+    {
+      "arg":"glaucoma;;8395d181-90fb-092c-96a1-1d85580bf3e4",
+      "subtitle":"article (64) review (16) preprint (1) ",
+      "title":"glaucoma (81)"
+    },
+    {
+      "arg":"singleCell;;67fbf676-21fd-0213-833c-6fdfb66699f2",
+      "subtitle":"article (57) preprint (11) review (10) ",
+      "title":"singleCell (78)"
+    },
+    {
+      "arg":"biomarkers;;d58facd0-1588-042f-9864-d8e9a67abfa3",
+      "subtitle":"article (44) review (27) book_chapter (5) preprint (2) ",
+      "title":"biomarkers (78)"
+    },
+    {
+      "arg":"Tourette;;edad8b9a-0321-0872-b85a-5a1e02dba0d4",
+      "subtitle":"article (60) review (13) commentary (2) book_chapter (1) ",
+      "title":"Tourette (76)"
+    },
+    {
+      "arg":"ALS;;97d14d48-39b0-0feb-a401-4b4246f94196",
+      "subtitle":"article (48) review (18) book_chapter (3) commentary (3) preprint (1) ",
+      "title":"ALS (73)"
+    },
+    {
+      "arg":"digitalPhenotyping;;3a8c6d40-a92c-0d79-9dc4-89891361ca2f",
+      "subtitle":"article (58) review (6) preprint (3) conference_paper (2) book_chapter (2) misc (1) news (1) ",
+      "title":"digitalPhenotyping (73)"
+    },
+    {
+      "arg":"rareVariants;;fa8f095e-3881-00a2-8a61-f6092ee9ce15",
+      "subtitle":"article (50) review (14) preprint (3) commentary (3) ",
+      "title":"rareVariants (70)"
+    },
+    {
+      "arg":"methods;;1ff34ffe-df6b-068b-9e84-0530aabade4a",
+      "subtitle":"article (56) preprint (7) review (6) commentary (1) ",
+      "title":"methods (70)"
+    },
+    {
+      "arg":"PD;;62623db0-dd99-0b1f-95d9-9c6ea7ad79ae",
+      "subtitle":"article (54) review (7) preprint (3) commentary (1) news (1) ",
+      "title":"PD (66)"
+    },
+    {
+      "arg":"RNAseq_methods;;f97c7d93-e52b-0028-8fec-ab266edd12d5",
+      "subtitle":"article (53) review (11) preprint (2) ",
+      "title":"RNAseq_methods (66)"
+    },
+    {
+      "arg":"AMD;;7f55ebb5-0f23-0ee6-9410-89a52c730314",
+      "subtitle":"article (48) review (17) preprint (1) ",
+      "title":"AMD (66)"
+    },
+    {
+      "arg":"tools;;6f23f2bb-524a-0193-a593-be38f16f3eca",
+      "subtitle":"article (53) preprint (4) review (2) book_chapter (1) book (1) ",
+      "title":"tools (61)"
+    },
+    {
+      "arg":"KeyPapers;;9db74b4a-3279-0645-b271-e835538a1a79",
+      "subtitle":"article (54) review (7) ",
+      "title":"KeyPapers (61)"
+    },
+    {
+      "arg":"AMRF papers;;fccb3a56-9e31-00a8-97be-6fed6e81f232",
+      "subtitle":"article (61) ",
+      "title":"AMRF papers (61)"
+    },
+    {
+      "arg":"PSP;;ccf989af-b19a-02a4-ad6e-04bd4f19ec60",
+      "subtitle":"article (36) review (21) preprint (1) book_chapter (1) ",
+      "title":"PSP (59)"
+    },
+    {
+      "arg":"ERAPs;;7bd17c60-9edd-0728-8c10-476495a57f83",
+      "subtitle":"article (32) review (22) preprint (3) commentary (1) ",
+      "title":"ERAPs (58)"
+    },
+    {
+      "arg":"TREM2;;9a8e1e01-95d8-0201-b466-817dec2533ba",
+      "subtitle":"article (43) review (13) commentary (2) ",
+      "title":"TREM2 (58)"
+    },
+    {
+      "arg":"controversy \ud83d\ude2c;;ed3304dd-caaa-0455-81ab-8d34e0075273",
+      "subtitle":"article (35) commentary (12) review (7) preprint (4) ",
+      "title":"controversy \ud83d\ude2c (58)"
+    },
+    {
+      "arg":"primers;;bb5b0f2e-89db-00d8-995c-ca70d3adb8f8",
+      "subtitle":"review (39) article (13) preprint (1) book_chapter (1) commentary (1) ",
+      "title":"primers (55)"
+    },
+    {
+      "arg":"LRRK2;;25004dc9-64f0-02b1-a909-8cc34d5978c9",
+      "subtitle":"article (34) review (17) preprint (3) news (1) ",
+      "title":"LRRK2 (55)"
+    },
+    {
+      "arg":"Huntington;;2945d65e-086d-0146-b2ca-b577bef260ea",
+      "subtitle":"article (33) review (15) commentary (1) news (1) ",
+      "title":"Huntington (50)"
+    },
+    {
+      "arg":"amyloid;;1c509839-b12f-0b66-a54c-ea27f4441f9e",
+      "subtitle":"article (29) review (14) preprint (2) commentary (2) news (1) ",
+      "title":"amyloid (48)"
+    },
+    {
+      "arg":"clinical_trials;;50f3982b-c6c2-0ebe-87ae-69b82d020b40",
+      "subtitle":"article (41) review (7) ",
+      "title":"clinical_trials (48)"
+    },
+    {
+      "arg":"WES;;a06c17c0-8c69-0aa3-acdd-ad0866b438e5",
+      "subtitle":"article (33) review (8) preprint (3) commentary (2) ",
+      "title":"WES (46)"
+    },
+    {
+      "arg":"iPS;;325b4604-8f00-01b6-bafb-d03d82eb3936",
+      "subtitle":"article (34) review (10) book_chapter (1) ",
+      "title":"iPS (45)"
+    },
+    {
+      "arg":"Autism;;68c9a1f8-3f45-05e3-9cfb-147bb7e065a5",
+      "subtitle":"article (29) review (12) preprint (1) commentary (1) ",
+      "title":"Autism (43)"
+    },
+    {
+      "arg":"OCT;;1b30b362-268e-026e-9be8-4d41e778e41c",
+      "subtitle":"article (26) review (10) preprint (2) book_chapter (1) commentary (1) ",
+      "title":"OCT (40)"
+    },
+    {
+      "arg":"GBM;;e97c7044-cd15-0a70-adf5-e4c85bd55cc1",
+      "subtitle":"article (31) review (8) ",
+      "title":"GBM (39)"
+    },
+    {
+      "arg":"cognitive;;e95c2e03-829b-0d17-8309-f726147fdaae",
+      "subtitle":"article (30) review (7) preprint (2) ",
+      "title":"cognitive (39)"
+    },
+    {
+      "arg":"Birdshot;;3171f7c3-206f-0468-a146-0a95da36b162",
+      "subtitle":"article (25) review (10) book_chapter (2) preprint (1) ",
+      "title":"Birdshot (38)"
+    },
+    {
+      "arg":"APP;;c2a8a5fe-dead-0d58-b0c8-7f30c02f0541",
+      "subtitle":"article (24) review (11) preprint (2) commentary (1) ",
+      "title":"APP (38)"
+    },
+    {
+      "arg":"ASO;;bb50762f-5e1f-0963-9602-d21b7e9ca864",
+      "subtitle":"article (24) review (11) commentary (2) preprint (1) ",
+      "title":"ASO (38)"
+    },
+    {
+      "arg":"2016;;f586d59f-b224-02ca-ac28-8c6f60501f71",
+      "subtitle":"article (36) conference_paper (1) ",
+      "title":"2016 (37)"
+    },
+    {
+      "arg":"bloodExpression;;eb2569ac-1139-0706-b2c4-6a7f7b1f34fa",
+      "subtitle":"article (32) review (3) news (1) ",
+      "title":"bloodExpression (36)"
+    },
+    {
+      "arg":"2019;;5047624f-440f-062a-bd31-4af23d793ab7",
+      "subtitle":"article (35) preprint (1) ",
+      "title":"2019 (36)"
+    },
+    {
+      "arg":"biomarkers_CSF;;37b1b7fe-87aa-00e0-9c3f-764840011786",
+      "subtitle":"article (23) review (11) preprint (2) ",
+      "title":"biomarkers_CSF (36)"
+    },
+    {
+      "arg":"WGS;;3cc260e3-59d2-0cf5-b3b9-d51d3101f037",
+      "subtitle":"article (27) review (5) preprint (2) commentary (1) ",
+      "title":"WGS (35)"
+    },
+    {
+      "arg":"denovo;;75a535f5-a9b7-08a6-a752-30d0c68b8ba7",
+      "subtitle":"article (29) review (6) ",
+      "title":"denovo (35)"
+    },
+    {
+      "arg":"variant_prioritization;;7a1c2a0a-ed27-0ca1-b616-7a03f903e447",
+      "subtitle":"article (18) review (11) preprint (5) commentary (1) ",
+      "title":"variant_prioritization (35)"
+    },
+    {
+      "arg":"heritability;;828762c3-7b96-0db4-8c91-f357d02b0116",
+      "subtitle":"article (26) review (6) preprint (2) book_chapter (1) ",
+      "title":"heritability (35)"
+    },
+    {
+      "arg":"CRISPR;;be5510bb-7a93-098a-8321-3371a6a6b7dc",
+      "subtitle":"article (21) review (12) preprint (1) ",
+      "title":"CRISPR (34)"
+    },
+    {
+      "arg":"SCN9A;;a8107ba3-e713-0dec-af65-ebe09217292e",
+      "subtitle":"article (23) review (6) news (2) preprint (1) book_chapter (1) commentary (1) ",
+      "title":"SCN9A (34)"
+    },
+    {
+      "arg":"prevalence;;cd8de16a-ae85-09d1-84f7-60e45bd7cf95",
+      "subtitle":"article (23) review (11) ",
+      "title":"prevalence (34)"
+    },
+    {
+      "arg":"machineLearning;;f32c5ff3-2d37-09c6-9a81-a432a85804b1",
+      "subtitle":"article (16) review (14) preprint (3) ",
+      "title":"machineLearning (33)"
+    },
+    {
+      "arg":"biomarkers_plasma \ud83d\udc89;;a422b30f-0e56-07c0-a98a-6f7d4cc055d6",
+      "subtitle":"article (28) review (5) ",
+      "title":"biomarkers_plasma \ud83d\udc89 (33)"
+    },
+    {
+      "arg":"2018;;588b41d4-ad4a-0a57-a9d3-87ac57b835d1",
+      "subtitle":"article (32) review (1) ",
+      "title":"2018 (33)"
+    },
+    {
+      "arg":"AD_preclinical;;35a352be-f3a3-0394-88ca-10ed7a70b56c",
+      "subtitle":"article (24) review (4) preprint (3) ",
+      "title":"AD_preclinical (31)"
+    },
+    {
+      "arg":"training;;cef6c200-7238-01ec-8f89-6af49ee1e914",
+      "subtitle":"article (27) review (2) commentary (1) ",
+      "title":"training (30)"
+    },
+    {
+      "arg":"2015;;217510a6-7e2a-0186-b490-beea95c8040f",
+      "subtitle":"article (28) review (1) dataset (1) ",
+      "title":"2015 (30)"
+    },
+    {
+      "arg":"lncRNA;;765e80cc-1e35-0d16-8ef2-f47e03b2cca6",
+      "subtitle":"review (24) article (6) ",
+      "title":"lncRNA (30)"
+    },
+    {
+      "arg":"LatinoGenetics;;c8597923-7563-05d0-b6c9-c425ecfbadd9",
+      "subtitle":"article (25) review (4) commentary (1) ",
+      "title":"LatinoGenetics (30)"
+    },
+    {
+      "arg":"therapeutics;;8d2a7c43-bcc1-0c85-8420-9968b514a774",
+      "subtitle":"review (17) article (9) news (2) commentary (1) ",
+      "title":"therapeutics (29)"
+    },
+    {
+      "arg":"RefractiveError;;2da5a2fc-43e1-0ae1-aa96-8994da289c67",
+      "subtitle":"article (21) review (5) commentary (2) preprint (1) ",
+      "title":"RefractiveError (29)"
+    },
+    {
+      "arg":"epigenetics;;984964a3-6e46-0cb4-b2f1-7d9b9acdd5b3",
+      "subtitle":"review (14) article (13) preprint (1) ",
+      "title":"epigenetics (28)"
+    },
+    {
+      "arg":"hearingLoss;;c15bc637-6732-0793-a24a-2848f2fac767",
+      "subtitle":"article (14) review (12) preprint (2) ",
+      "title":"hearingLoss (28)"
+    },
+    {
+      "arg":"AD_PRS;;390c6e4b-a658-03bd-a117-c324df82b294",
+      "subtitle":"article (25) preprint (2) review (1) ",
+      "title":"AD_PRS (28)"
+    },
+    {
+      "arg":"schizophrenia;;42850c5f-6051-0e45-84ef-d3a1bdf166fa",
+      "subtitle":"article (21) review (4) commentary (2) preprint (1) ",
+      "title":"schizophrenia (28)"
+    },
+    {
+      "arg":"tdp43;;74bc9109-a8ca-07b6-85c7-b166b63beb01",
+      "subtitle":"article (19) review (9) ",
+      "title":"tdp43 (28)"
+    },
+    {
+      "arg":"ADRC_AG023501;;7d444b5a-2bb2-0565-8798-7a4d31981303",
+      "subtitle":"article (27) ",
+      "title":"ADRC_AG023501 (27)"
+    },
+    {
+      "arg":"2017;;d1178590-52da-0d8a-840d-ca2dc21c517d",
+      "subtitle":"article (25) conference_paper (1) book_chapter (1) ",
+      "title":"2017 (27)"
+    },
+    {
+      "arg":"Depression;;0ca613df-3e0c-0d99-9159-f6b7345f66d7",
+      "subtitle":"article (21) preprint (3) review (3) ",
+      "title":"Depression (27)"
+    },
+    {
+      "arg":"databases;;f3940802-3d79-0c76-bcc6-fe0f0c2250a7",
+      "subtitle":"article (25) preprint (1) review (1) ",
+      "title":"databases (27)"
+    },
+    {
+      "arg":"autophagy;;4529e1dd-8c4f-079b-abd3-4a44f4c60dbb",
+      "subtitle":"review (19) article (8) ",
+      "title":"autophagy (27)"
+    },
+    {
+      "arg":"classifier;;d0a498bb-3386-0a1f-8b4b-5ec1b6ddb0bc",
+      "subtitle":"article (22) review (2) preprint (1) commentary (1) ",
+      "title":"classifier (26)"
+    },
+    {
+      "arg":"registries;;dc7c0c51-b895-0957-8d39-e7bf1337f1d5",
+      "subtitle":"article (20) preprint (3) review (3) ",
+      "title":"registries (26)"
+    },
+    {
+      "arg":"proteomics;;407efe6a-5e67-0fe8-a849-7efd08757433",
+      "subtitle":"article (20) review (4) preprint (2) ",
+      "title":"proteomics (26)"
+    },
+    {
+      "arg":"statistics;;6fd45544-9895-07c8-9e51-923b83b1395d",
+      "subtitle":"article (16) review (5) preprint (2) website (1) book (1) news (1) ",
+      "title":"statistics (26)"
+    },
+    {
+      "arg":"splicing;;b576c4b1-a6f2-06e6-9bf9-dbb08c3593e0",
+      "subtitle":"article (17) review (7) book_chapter (1) ",
+      "title":"splicing (25)"
+    },
+    {
+      "arg":"VEGFA;;35620cea-edf8-04c4-9f2c-baf9fab27da6",
+      "subtitle":"article (16) review (8) news (1) ",
+      "title":"VEGFA (25)"
+    },
+    {
+      "arg":"2012;;3a35ce7f-4abc-099c-9f9c-d9f94604c2cb",
+      "subtitle":"article (24) commentary (1) ",
+      "title":"2012 (25)"
+    },
+    {
+      "arg":"HSP;;23a18424-337f-0181-8f28-c67cf789a43d",
+      "subtitle":"article (14) review (9) preprint (1) book_chapter (1) ",
+      "title":"HSP (25)"
+    },
+    {
+      "arg":"2011;;836a7eea-9f9b-04e5-b9e1-5d14ca757cfc",
+      "subtitle":"article (22) conference_paper (2) book_chapter (1) ",
+      "title":"2011 (25)"
+    },
+    {
+      "arg":"modifiers;;56902e8c-7534-0235-9709-b56b5e570b7b",
+      "subtitle":"article (20) review (5) ",
+      "title":"modifiers (25)"
+    },
+    {
+      "arg":"mendelianRandomization;;773cb374-5cfb-0292-b91e-917082bf9f16",
+      "subtitle":"article (15) review (5) preprint (3) commentary (1) ",
+      "title":"mendelianRandomization (24)"
+    },
+    {
+      "arg":"EHR;;ff09bcb0-2ca7-0f2d-b010-cb2203d055a3",
+      "subtitle":"article (18) review (5) preprint (1) ",
+      "title":"EHR (24)"
+    },
+    {
+      "arg":"PPG_AG019724;;a2027a15-1032-06d9-8cb5-dfe137372699",
+      "subtitle":"article (24) ",
+      "title":"PPG_AG019724 (24)"
+    },
+    {
+      "arg":"wgcna;;88ba523d-b334-0b62-88ca-7762ccb6ccca",
+      "subtitle":"article (19) review (3) preprint (1) book (1) ",
+      "title":"wgcna (24)"
+    },
+    {
+      "arg":"HLA_methods;;5cb4b5b8-fa68-0b90-a248-a41124964d25",
+      "subtitle":"article (21) review (2) preprint (1) ",
+      "title":"HLA_methods (24)"
+    },
+    {
+      "arg":"NCRAD_AG21886;;089433da-09e1-0e56-986a-27fe0b1eaf75",
+      "subtitle":"article (24) ",
+      "title":"NCRAD_AG21886 (24)"
+    },
+    {
+      "arg":"MYOC;;1da920e6-1689-0941-a6df-c376adf326c9",
+      "subtitle":"article (19) review (3) commentary (1) ",
+      "title":"MYOC (23)"
+    },
+    {
+      "arg":"2020;;de12fbf6-d78b-00c1-9da5-8a45af46e0bc",
+      "subtitle":"article (22) preprint (1) ",
+      "title":"2020 (23)"
+    },
+    {
+      "arg":"psychiatricGenetics;;9a5712a8-acd8-0072-a1de-cf8b84eda3d3",
+      "subtitle":"article (15) review (6) preprint (2) ",
+      "title":"psychiatricGenetics (23)"
+    },
+    {
+      "arg":"LoF;;48bf33a7-2a61-09f7-ac71-d9c342fe3924",
+      "subtitle":"article (18) preprint (3) review (2) ",
+      "title":"LoF (23)"
+    },
+    {
+      "arg":"als_genes;;d9e7cead-af08-0b45-a26b-65e6e2594fe1",
+      "subtitle":"article (21) review (2) ",
+      "title":"als_genes (23)"
+    },
+    {
+      "arg":"vervet;;ba128f96-3553-0834-b0c4-11e430552d14",
+      "subtitle":"article (20) review (2) ",
+      "title":"vervet (22)"
+    },
+    {
+      "arg":"aging;;8a6f21d2-3885-007b-9030-a76f0fe52a98",
+      "subtitle":"article (11) review (9) preprint (2) ",
+      "title":"aging (22)"
+    },
+    {
+      "arg":"astrocytes;;5c99dfad-78c0-0096-a19c-eb87dde5afa1",
+      "subtitle":"article (13) review (8) commentary (1) ",
+      "title":"astrocytes (22)"
+    },
+    {
+      "arg":"spreading;;8a8ea28d-dd72-056c-b1b0-dca9890e2405",
+      "subtitle":"review (11) article (11) ",
+      "title":"spreading (22)"
+    },
+    {
+      "arg":"interesting;;3279e1bb-1fcd-00d8-a53d-967d3aa952a6",
+      "subtitle":"article (16) review (2) commentary (2) news (1) ",
+      "title":"interesting (21)"
+    },
+    {
+      "arg":"sTREM2;;8725f208-b774-0c26-9e4d-1e4f9316238f",
+      "subtitle":"article (19) review (1) commentary (1) ",
+      "title":"sTREM2 (21)"
+    },
+    {
+      "arg":"tauPropagation;;973f924e-2f29-07ce-9d6c-c77f57e66645",
+      "subtitle":"review (11) article (9) preprint (1) ",
+      "title":"tauPropagation (21)"
+    },
+    {
+      "arg":"2013;;00744378-be5e-0b7a-b8e5-c65f20e25c29",
+      "subtitle":"article (15) review (3) conference_paper (1) dataset (1) ",
+      "title":"2013 (20)"
+    },
+    {
+      "arg":"populationGenetics;;d1f5666a-ee17-0130-9302-811c7315d5af",
+      "subtitle":"article (9) review (8) conference_paper (1) misc (1) commentary (1) ",
+      "title":"populationGenetics (20)"
+    },
+    {
+      "arg":"pain;;7dbb12d7-cfdc-094a-8e72-fe240bc2ba15",
+      "subtitle":"article (12) review (7) preprint (1) ",
+      "title":"pain (20)"
+    },
+    {
+      "arg":"methylation_clock;;4754aa05-679c-0267-9123-fb3ab35f28a7",
+      "subtitle":"article (14) review (6) ",
+      "title":"methylation_clock (20)"
+    },
+    {
+      "arg":"microglia_geneExpr;;9cb6be58-a0d0-0c27-afe1-ddca6d7232e3",
+      "subtitle":"article (18) preprint (1) review (1) ",
+      "title":"microglia_geneExpr (20)"
+    },
+    {
+      "arg":"epidemiology;;f521ac82-7ca3-0a82-86a2-2c68772560c8",
+      "subtitle":"article (12) review (8) ",
+      "title":"epidemiology (20)"
+    },
+    {
+      "arg":"scientistProfiles;;47e2c8ea-c4f4-00a2-a464-60be5ec5bea0",
+      "subtitle":"article (15) news (3) commentary (1) ",
+      "title":"scientistProfiles (19)"
+    },
+    {
+      "arg":"prion;;76e5e0af-c599-0836-b84c-70964202193e",
+      "subtitle":"review (11) article (8) ",
+      "title":"prion (19)"
+    },
+    {
+      "arg":"PSEN;;59065f39-2f38-0f04-a60e-3602fd2511f2",
+      "subtitle":"article (17) review (1) commentary (1) ",
+      "title":"PSEN (19)"
+    },
+    {
+      "arg":"CAA;;db661f30-88c6-06a7-a7e2-8593c695179e",
+      "subtitle":"article (13) review (6) ",
+      "title":"CAA (19)"
+    },
+    {
+      "arg":"cognitive_UKB;;930a59c7-36e7-026b-941c-8b1bfba2898b",
+      "subtitle":"article (18) review (1) ",
+      "title":"cognitive_UKB (19)"
+    },
+    {
+      "arg":"AD_therapy;;d670c5fb-fe5b-0dda-b0e2-d70ffcd8e7cf",
+      "subtitle":"article (15) preprint (1) review (1) commentary (1) news (1) ",
+      "title":"AD_therapy (19)"
+    },
+    {
+      "arg":"SMA;;aa45583f-4d4d-0a86-98fa-ee8e3b6073d9",
+      "subtitle":"article (14) review (4) ",
+      "title":"SMA (18)"
+    },
+    {
+      "arg":"MacTel;;f5034b30-835b-0898-a9c6-a6ffcba9c752",
+      "subtitle":"article (12) review (4) preprint (2) ",
+      "title":"MacTel (18)"
+    },
+    {
+      "arg":"somaticVariation;;fa1b2d58-cea0-0b8a-bd26-435eef656630",
+      "subtitle":"article (13) review (5) ",
+      "title":"somaticVariation (18)"
+    },
+    {
+      "arg":"AD_genes;;c59ac3ed-4806-0332-a49b-8beef5e15e3d",
+      "subtitle":"article (14) review (3) commentary (1) ",
+      "title":"AD_genes (18)"
+    },
+    {
+      "arg":"VCP;;6121e953-7d73-0802-b84a-852d72b9fa13",
+      "subtitle":"article (10) review (8) ",
+      "title":"VCP (18)"
+    },
+    {
+      "arg":"TC papers;;3843a6c7-daa5-0218-9124-0b6075de550f",
+      "subtitle":"article (18) ",
+      "title":"TC papers (18)"
+    },
+    {
+      "arg":"imaging_genetics;;40743e5a-5cf4-03f4-8ddb-dda2f0c5a9b4",
+      "subtitle":"article (12) preprint (4) review (1) ",
+      "title":"imaging_genetics (17)"
+    },
+    {
+      "arg":"FTD;;ad7488aa-2e34-0ed8-9adc-56892188b58a",
+      "subtitle":"article (11) review (5) book (1) ",
+      "title":"FTD (17)"
+    },
+    {
+      "arg":"immune;;442bf90e-ae98-07f4-8a0c-fec83db66ff0",
+      "subtitle":"article (10) review (7) ",
+      "title":"immune (17)"
+    },
+    {
+      "arg":"colorVision;;669aed6a-b966-0d8c-8c72-8ce85f0f6101",
+      "subtitle":"article (8) review (7) preprint (1) book_chapter (1) ",
+      "title":"colorVision (17)"
+    },
+    {
+      "arg":"NMJ;;25212bf4-aa28-09b3-8c9f-c9129c43a646",
+      "subtitle":"article (11) review (6) ",
+      "title":"NMJ (17)"
+    },
+    {
+      "arg":"microarray;;788c1a43-07b0-03ba-9e85-bee129793451",
+      "subtitle":"article (13) review (3) book (1) ",
+      "title":"microarray (17)"
+    },
+    {
+      "arg":"candidateGeneStudies;;a88a8ee3-2356-07eb-9b64-d920be5b51f2",
+      "subtitle":"article (13) review (4) ",
+      "title":"candidateGeneStudies (17)"
+    },
+    {
+      "arg":"SNCA;;d6571feb-87b1-0e28-b47b-bd4b9ec9e4ec",
+      "subtitle":"article (8) review (6) preprint (2) commentary (1) ",
+      "title":"SNCA (17)"
+    },
+    {
+      "arg":"UKB_EVC;;0295c7c4-a4dd-0af0-b7ee-409fa00fa940",
+      "subtitle":"article (16) preprint (1) ",
+      "title":"UKB_EVC (17)"
+    },
+    {
+      "arg":"pharma;;3dcd2834-2270-0469-961d-737f0c6a862d",
+      "subtitle":"article (10) review (3) news (2) book (1) ",
+      "title":"pharma (16)"
+    },
+    {
+      "arg":"geneticTesting;;a00c1b24-2d22-09bc-b3cc-2e091b33187f",
+      "subtitle":"article (10) review (5) commentary (1) ",
+      "title":"geneticTesting (16)"
+    },
+    {
+      "arg":"pharmacogenomics;;38b412ee-8138-05d1-8180-016546efbe9d",
+      "subtitle":"article (10) review (4) preprint (2) ",
+      "title":"pharmacogenomics (16)"
+    },
+    {
+      "arg":"complement;;2cd1a376-545b-0333-95d6-c01257f8fb01",
+      "subtitle":"article (9) review (6) preprint (1) ",
+      "title":"complement (16)"
+    },
+    {
+      "arg":"diabetes;;4041587e-8bac-05ac-89c8-7c09f881ebf2",
+      "subtitle":"article (11) review (4) commentary (1) ",
+      "title":"diabetes (16)"
+    },
+    {
+      "arg":"GWAS_glaucoma;;6e858a54-6f2d-00a2-848a-0be24f6f7abd",
+      "subtitle":"article (14) preprint (1) ",
+      "title":"GWAS_glaucoma (15)"
+    },
+    {
+      "arg":"bipolar;;b583c4f4-f9e8-0b7f-a825-233ef1ba42b5",
+      "subtitle":"article (12) preprint (2) review (1) ",
+      "title":"bipolar (15)"
+    },
+    {
+      "arg":"geneExpr_Brain;;d5ba019e-7b89-03b4-a139-4808c17867a3",
+      "subtitle":"article (12) review (2) preprint (1) ",
+      "title":"geneExpr_Brain (15)"
+    },
+    {
+      "arg":"COVID-19;;f27cd41f-86f5-07ce-bdf0-2000dddd6c58",
+      "subtitle":"article (12) review (2) preprint (1) ",
+      "title":"COVID-19 (15)"
+    },
+    {
+      "arg":"RNAi;;cae40af7-519a-040d-b2a3-5859e93f3daa",
+      "subtitle":"article (8) review (7) ",
+      "title":"RNAi (15)"
+    },
+    {
+      "arg":"AD_prevalence;;a27c2d6f-d879-0721-9644-1b3e0e8f3e41",
+      "subtitle":"article (12) review (3) ",
+      "title":"AD_prevalence (15)"
+    },
+    {
+      "arg":"GWAS_MS;;c02612eb-f89c-09ae-884c-ba1c0f8cf45d",
+      "subtitle":"article (15) ",
+      "title":"GWAS_MS (15)"
+    },
+    {
+      "arg":"path;;7ace4d35-5b97-08ec-a672-20964d32b7f8",
+      "subtitle":"review (9) article (5) book (1) ",
+      "title":"path (15)"
+    },
+    {
+      "arg":"protocols;;0b693806-0089-0123-beab-d74cc8df3119",
+      "subtitle":"article (13) preprint (2) ",
+      "title":"protocols (15)"
+    },
+    {
+      "arg":"2010;;21164b03-058f-0cce-8910-dfaa3dd17d63",
+      "subtitle":"article (15) ",
+      "title":"2010 (15)"
+    },
+    {
+      "arg":"A152T;;fd058afb-e052-05c3-8179-07131f651ada",
+      "subtitle":"article (14) conference_paper (1) ",
+      "title":"A152T (15)"
+    },
+    {
+      "arg":"biomarkers_tau;;09320140-8942-04cd-9928-5252fb0a0713",
+      "subtitle":"article (14) review (1) ",
+      "title":"biomarkers_tau (15)"
+    },
+    {
+      "arg":"structuralVariation;;fee956ec-68e5-0bd8-9796-178eaa5c5594",
+      "subtitle":"article (14) preprint (1) ",
+      "title":"structuralVariation (15)"
+    },
+    {
+      "arg":"MSA;;2a6f3dab-4d80-0d73-9d47-5878858d765d",
+      "subtitle":"article (8) review (6) commentary (1) ",
+      "title":"MSA (15)"
+    },
+    {
+      "arg":"ANGPTL7;;29d69ecd-489a-082c-9f61-7dda32f01a60",
+      "subtitle":"article (13) patent (1) ",
+      "title":"ANGPTL7 (14)"
+    },
+    {
+      "arg":"ATAC-seq;;8f77d0e1-bf32-0f5e-bef8-23c2e211350c",
+      "subtitle":"article (11) review (2) preprint (1) ",
+      "title":"ATAC-seq (14)"
+    },
+    {
+      "arg":"stroke;;56ff436b-25b1-01b5-a50e-8aa771661ae0",
+      "subtitle":"article (8) preprint (3) review (3) ",
+      "title":"stroke (14)"
+    },
+    {
+      "arg":"addiction;;f816cdc5-3cfa-05e2-bbe5-70b06a7c35df",
+      "subtitle":"article (8) preprint (3) review (3) ",
+      "title":"addiction (14)"
+    },
+    {
+      "arg":"2014;;f6c210ac-d98c-078b-b916-f469c5b64a37",
+      "subtitle":"article (12) review (1) book (1) ",
+      "title":"2014 (14)"
+    },
+    {
+      "arg":"exosome;;b8490a72-2530-0caa-8bc5-6e1501834b8e",
+      "subtitle":"article (11) review (3) ",
+      "title":"exosome (14)"
+    },
+    {
+      "arg":"vitaminD;;ca732a2e-f7a4-0be4-a11c-53168e1cd0d7",
+      "subtitle":"review (6) article (6) preprint (1) commentary (1) ",
+      "title":"vitaminD (14)"
+    },
+    {
+      "arg":"2021;;f37b32a7-5d2a-0009-8d91-a0500081a13e",
+      "subtitle":"article (14) ",
+      "title":"2021 (14)"
+    },
+    {
+      "arg":"OCT_AD;;e1b7ca9f-e63a-032e-ae3b-074ba95f7ec5",
+      "subtitle":"article (7) review (6) commentary (1) ",
+      "title":"OCT_AD (14)"
+    },
+    {
+      "arg":"CogState;;b535f7af-b768-0ebd-8950-1df77f0b0798",
+      "subtitle":"article (12) misc (2) ",
+      "title":"CogState (14)"
+    },
+    {
+      "arg":"AnkylosingSpondylitis;;8d7d09ca-9813-06d5-86fa-783f107b4597",
+      "subtitle":"article (9) review (4) commentary (1) ",
+      "title":"AnkylosingSpondylitis (14)"
+    },
+    {
+      "arg":"IDDRC_U54HD087101;;b54979a7-eef3-0bb6-8d99-942e39586dab",
+      "subtitle":"article (14) ",
+      "title":"IDDRC_U54HD087101 (14)"
+    },
+    {
+      "arg":"NMO;;eb86a32c-7402-0b94-b35d-477c3ae138d6",
+      "subtitle":"review (7) article (7) ",
+      "title":"NMO (14)"
+    },
+    {
+      "arg":"DRG;;400ab5f6-6804-0b69-ae26-e8bfa930b1d5",
+      "subtitle":"article (9) review (4) news (1) ",
+      "title":"DRG (14)"
+    },
+    {
+      "arg":"IBD;;d507b3a5-e3a1-0ac7-a8c0-3c48247e0e49",
+      "subtitle":"article (11) preprint (1) review (1) ",
+      "title":"IBD (13)"
+    },
+    {
+      "arg":"biomarkers_NfL;;e152d7d9-d726-087c-abdd-51d75c58a806",
+      "subtitle":"article (9) review (3) preprint (1) ",
+      "title":"biomarkers_NfL (13)"
+    },
+    {
+      "arg":"CD33;;e8a4b86b-dc11-0441-bfd7-232ffe45208e",
+      "subtitle":"article (9) review (3) commentary (1) ",
+      "title":"CD33 (13)"
+    },
+    {
+      "arg":"fundus;;f6a4b1f9-116c-082e-b299-15e71fca5e5c",
+      "subtitle":"article (11) review (2) ",
+      "title":"fundus (13)"
+    },
+    {
+      "arg":"cardiovascular;;dc966601-c389-0e9d-b44d-628a84fba578",
+      "subtitle":"article (10) preprint (1) review (1) commentary (1) ",
+      "title":"cardiovascular (13)"
+    },
+    {
+      "arg":"FTD_genes;;08410748-26f4-069a-b087-e01571ab2caa",
+      "subtitle":"article (11) review (2) ",
+      "title":"FTD_genes (13)"
+    },
+    {
+      "arg":"FrenchFoundationGrant;;ba1e71e6-6012-026d-9bc1-292d42fb1bc0",
+      "subtitle":"article (13) ",
+      "title":"FrenchFoundationGrant (13)"
+    },
+    {
+      "arg":"burden;;8b0e0da8-9a73-054d-a485-41641e2ee699",
+      "subtitle":"article (10) review (2) commentary (1) ",
+      "title":"burden (13)"
+    },
+    {
+      "arg":"glaucoma_therapy;;ba948675-e964-057a-97c5-ccbc4c9c1bed",
+      "subtitle":"review (12) article (1) ",
+      "title":"glaucoma_therapy (13)"
+    },
+    {
+      "arg":"TBK1;;57190dd7-10b5-0a5f-be2e-5f9916b022f2",
+      "subtitle":"article (12) review (1) ",
+      "title":"TBK1 (13)"
+    },
+    {
+      "arg":"2009;;3958c6a9-b49b-0fee-96ce-da1e7abd59ae",
+      "subtitle":"article (13) ",
+      "title":"2009 (13)"
+    },
+    {
+      "arg":"TSC;;3220b830-5389-0eea-85c6-13c8e783e8b8",
+      "subtitle":"review (6) article (6) ",
+      "title":"TSC (12)"
+    },
+    {
+      "arg":"TTR;;be1769ad-dbbf-0e77-bf4f-d7316edccb53",
+      "subtitle":"article (8) review (4) ",
+      "title":"TTR (12)"
+    },
+    {
+      "arg":"GeographicAtrophy;;0e1d9f8e-1c06-0127-a73f-2be7e2a13c2f",
+      "subtitle":"article (8) review (4) ",
+      "title":"GeographicAtrophy (12)"
+    },
+    {
+      "arg":"sca2;;b8d4f747-72de-09be-b21e-d6d1cddb6632",
+      "subtitle":"article (9) preprint (1) review (1) commentary (1) ",
+      "title":"sca2 (12)"
+    },
+    {
+      "arg":"EOAD;;bb35bbbc-6619-0c17-be2a-a2e3c475953d",
+      "subtitle":"article (11) review (1) ",
+      "title":"EOAD (12)"
+    },
+    {
+      "arg":"microbiome;;7c43e841-c590-04a5-a8f6-b970637a2108",
+      "subtitle":"review (5) article (5) preprint (1) misc (1) ",
+      "title":"microbiome (12)"
+    },
+    {
+      "arg":"7;;ab4e9153-0fce-0fed-adc4-212b2391ea4b",
+      "subtitle":"article (8) review (4) ",
+      "title":"7 (12)"
+    },
+    {
+      "arg":"repeats;;6e84ae11-1c77-0ded-9b74-546cfe4d969a",
+      "subtitle":"article (7) review (5) ",
+      "title":"repeats (12)"
+    },
+    {
+      "arg":"MCI;;36ed8b05-ea48-01c0-a03d-55e89e434add",
+      "subtitle":"article (10) review (2) ",
+      "title":"MCI (12)"
+    },
+    {
+      "arg":"polyAdenylation;;56b08490-9cb3-0896-b22f-fa0a03d7833d",
+      "subtitle":"article (11) review (1) ",
+      "title":"polyAdenylation (12)"
+    },
+    {
+      "arg":"KIF1A;;81a2cfb0-483b-020c-b4bf-7dbd24496719",
+      "subtitle":"article (10) review (2) ",
+      "title":"KIF1A (12)"
+    },
+    {
+      "arg":"uveitis;;4b77273c-83a2-0471-a700-1812cd77f1bc",
+      "subtitle":"review (6) article (5) book_chapter (1) ",
+      "title":"uveitis (12)"
+    },
+    {
+      "arg":"pd_genes;;877a4956-52d1-088b-bb58-841ea809488a",
+      "subtitle":"article (8) review (3) preprint (1) ",
+      "title":"pd_genes (12)"
+    },
+    {
+      "arg":"migraine;;cb2600ea-0990-05df-83fa-13aaade09d88",
+      "subtitle":"review (10) article (2) ",
+      "title":"migraine (12)"
+    },
+    {
+      "arg":"positiveSelection;;e07e9b0e-ed6b-0780-ab7c-c0c8a7fe5b77",
+      "subtitle":"article (8) review (3) ",
+      "title":"positiveSelection (11)"
+    },
+    {
+      "arg":"GWAS_AD;;b6a20d10-fa90-023e-ae04-107c2ee53902",
+      "subtitle":"article (9) preprint (2) ",
+      "title":"GWAS_AD (11)"
+    },
+    {
+      "arg":"8;;feb4cb29-ab4c-0222-9a3b-bad2d0ec6536",
+      "subtitle":"review (6) article (4) preprint (1) ",
+      "title":"8 (11)"
+    },
+    {
+      "arg":"height;;b4262ed8-8b71-0713-8a03-d30c4bb82d2a",
+      "subtitle":"article (9) preprint (1) review (1) ",
+      "title":"height (11)"
+    },
+    {
+      "arg":"AD_risk;;012326e4-8a5a-0cc5-99bd-1a23694c32c1",
+      "subtitle":"article (7) review (4) ",
+      "title":"AD_risk (11)"
+    },
+    {
+      "arg":"clinical_criteria;;322dda63-1641-0e9b-9c65-56bf784319cb",
+      "subtitle":"article (6) review (4) commentary (1) ",
+      "title":"clinical_criteria (11)"
+    },
+    {
+      "arg":"reproducibility;;202189f9-7f5c-06e4-b8f3-851760831e93",
+      "subtitle":"article (9) review (2) ",
+      "title":"reproducibility (11)"
+    },
+    {
+      "arg":"inflammation;;5e6969e6-fd33-02bb-a7d9-9db8066c41d3",
+      "subtitle":"review (10) article (1) ",
+      "title":"inflammation (11)"
+    },
+    {
+      "arg":"2007;;26ac0b55-33ce-0168-be6f-88fdcdbce8e8",
+      "subtitle":"article (6) conference_paper (5) ",
+      "title":"2007 (11)"
+    },
+    {
+      "arg":"MPRA;;b401698d-5e79-08fd-8806-3261927e871d",
+      "subtitle":"article (7) preprint (3) ",
+      "title":"MPRA (10)"
+    },
+    {
+      "arg":"6;;324573c4-0fda-04cc-a34c-aea37ef50b51",
+      "subtitle":"review (6) article (3) preprint (1) ",
+      "title":"6 (10)"
+    },
+    {
+      "arg":"epistasis;;f4ec9964-8c6a-0dd3-b0a1-049e5a428eec",
+      "subtitle":"article (8) review (2) ",
+      "title":"epistasis (10)"
+    },
+    {
+      "arg":"organoids;;b824f0e9-df66-0735-9b1f-76ba39f6e067",
+      "subtitle":"article (6) review (4) ",
+      "title":"organoids (10)"
+    },
+    {
+      "arg":"WES_AD;;2b8f6368-ef1b-03a6-b0aa-d12a0fe66a55",
+      "subtitle":"article (8) preprint (2) ",
+      "title":"WES_AD (10)"
+    },
+    {
+      "arg":"journalClub \ud83d\udcd6;;2fc4386a-a8ca-036a-8b2a-f445eed7825d",
+      "subtitle":"article (10) ",
+      "title":"journalClub \ud83d\udcd6 (10)"
+    },
+    {
+      "arg":"dyslexia;;26fda5d2-d61c-0e29-9524-a8fbe954a8a5",
+      "subtitle":"review (4) article (4) preprint (1) book_chapter (1) ",
+      "title":"dyslexia (10)"
+    },
+    {
+      "arg":"pain_GWAS;;05c2e002-0f42-017a-9db8-0695023e76f5",
+      "subtitle":"article (10) ",
+      "title":"pain_GWAS (10)"
+    },
+    {
+      "arg":"trigeminalNeuralgia;;8350a3bc-4ed3-0dda-bbca-c1659c66306c",
+      "subtitle":"article (8) review (2) ",
+      "title":"trigeminalNeuralgia (10)"
+    },
+    {
+      "arg":"FTD_mouseModels;;6928adcb-cf81-01bb-ad69-7e11f2cb611f",
+      "subtitle":"article (7) review (3) ",
+      "title":"FTD_mouseModels (10)"
+    },
+    {
+      "arg":"5;;26ccbd27-7ea7-02df-9753-334a8639246a",
+      "subtitle":"article (5) review (3) preprint (1) commentary (1) ",
+      "title":"5 (10)"
+    },
+    {
+      "arg":"CST_regeneration;;84993890-6006-05db-a81a-da440abbb1c0",
+      "subtitle":"article (7) review (3) ",
+      "title":"CST_regeneration (10)"
+    },
+    {
+      "arg":"transposons;;4b334b4d-30de-0437-a20f-ef77fb76269a",
+      "subtitle":"review (6) article (4) ",
+      "title":"transposons (10)"
+    },
+    {
+      "arg":"GeneTherapy;;2b05b700-4987-006e-b5de-12a1b9eaab1b",
+      "subtitle":"article (7) preprint (1) news (1) ",
+      "title":"GeneTherapy (9)"
+    },
+    {
+      "arg":"MAPT_mutations;;d9bdefc8-a1d4-0681-bc97-0fcd9659c8cf",
+      "subtitle":"article (6) review (2) commentary (1) ",
+      "title":"MAPT_mutations (9)"
+    },
+    {
+      "arg":"AD_biomarkers;;7b470aa7-7af9-0355-a347-835aabaa5123",
+      "subtitle":"article (5) review (4) ",
+      "title":"AD_biomarkers (9)"
+    },
+    {
+      "arg":"chek2;;34bfc968-63e0-0396-bfec-fc870ae8bc37",
+      "subtitle":"article (5) review (4) ",
+      "title":"chek2 (9)"
+    },
+    {
+      "arg":"uricAcid;;d5275c59-a1bd-036f-87f7-0c58f5a838e2",
+      "subtitle":"article (7) review (2) ",
+      "title":"uricAcid (9)"
+    },
+    {
+      "arg":"BBB;;57c24e36-208b-07eb-9741-72db3e747f0e",
+      "subtitle":"article (5) review (3) commentary (1) ",
+      "title":"BBB (9)"
+    },
+    {
+      "arg":"p-tau181;;78863e1d-b16d-0cc0-a0ce-dbb2adc068ab",
+      "subtitle":"article (9) ",
+      "title":"p-tau181 (9)"
+    },
+    {
+      "arg":"AD_mouseModels;;b0675639-fa44-0819-806c-c518737242d0",
+      "subtitle":"article (5) review (3) commentary (1) ",
+      "title":"AD_mouseModels (9)"
+    },
+    {
+      "arg":"commentary;;cbc64d64-c738-00f7-aff5-06a87f4aa2db",
+      "subtitle":"commentary (6) article (2) news (1) ",
+      "title":"commentary (9)"
+    },
+    {
+      "arg":"GWAS_AMD;;14238aa0-99dc-097c-936f-658b21d41732",
+      "subtitle":"article (9) ",
+      "title":"GWAS_AMD (9)"
+    },
+    {
+      "arg":"genetics_of_AD;;0ccbc9cf-c403-05e8-9c79-da50b51a8008",
+      "subtitle":"review (8) article (1) ",
+      "title":"genetics_of_AD (9)"
+    },
+    {
+      "arg":"spatialTranscriptomics;;f8dceeb1-3f76-0cfa-a847-87a227d2772b",
+      "subtitle":"article (5) preprint (2) review (1) news (1) ",
+      "title":"spatialTranscriptomics (9)"
+    },
+    {
+      "arg":"CADASIL;;4d349b8b-c0e9-0e4c-a050-e76a6fb1f82f",
+      "subtitle":"article (8) review (1) ",
+      "title":"CADASIL (9)"
+    },
+    {
+      "arg":"myReviews;;5d24c778-5615-0a6a-8190-4c6cabf773e4",
+      "subtitle":"review (6) book_chapter (1) commentary (1) article (1) ",
+      "title":"myReviews (9)"
+    },
+    {
+      "arg":"2008;;0e795156-ec13-0a37-a23d-f22c376b3c0e",
+      "subtitle":"article (9) ",
+      "title":"2008 (9)"
+    },
+    {
+      "arg":"BrainHealthRegistry;;9dc7d204-885a-0a04-a761-ed6172a6bcf9",
+      "subtitle":"article (8) ",
+      "title":"BrainHealthRegistry (8)"
+    },
+    {
+      "arg":"GWAS_PD;;618e69b9-7884-07c6-8c4c-3feb82f645ea",
+      "subtitle":"article (8) ",
+      "title":"GWAS_PD (8)"
+    },
+    {
+      "arg":"IL-6;;ce8a1958-e10f-0765-a79c-c2aca038e1b9",
+      "subtitle":"article (4) review (3) conference_paper (1) ",
+      "title":"IL-6 (8)"
+    },
+    {
+      "arg":"longitudinal;;152565df-f13c-07d0-af8f-a3d6728a0f60",
+      "subtitle":"article (7) review (1) ",
+      "title":"longitudinal (8)"
+    },
+    {
+      "arg":"microglia_retina;;3e634f5c-7ace-0586-a1c9-154f8568a9ac",
+      "subtitle":"article (5) review (2) preprint (1) ",
+      "title":"microglia_retina (8)"
+    },
+    {
+      "arg":"AMD_progression;;95fbe170-ee68-0492-90b6-9b02b6e5e078",
+      "subtitle":"article (7) review (1) ",
+      "title":"AMD_progression (8)"
+    },
+    {
+      "arg":"genetics_of_PD;;ef6dc808-16e2-0ef1-bfa0-139b3e8c16f7",
+      "subtitle":"review (8) ",
+      "title":"genetics_of_PD (8)"
+    },
+    {
+      "arg":"ethics;;5d00882e-1255-0c3d-8b02-30c47a94fe60",
+      "subtitle":"article (5) review (3) ",
+      "title":"ethics (8)"
+    },
+    {
+      "arg":"environmental;;c32ce6a6-b51e-0854-9586-5a6deaaa80ed",
+      "subtitle":"article (4) review (3) preprint (1) ",
+      "title":"environmental (8)"
+    },
+    {
+      "arg":"XPR1;;09391943-299a-03f4-aa0a-e1456f35e9d4",
+      "subtitle":"article (8) ",
+      "title":"XPR1 (8)"
+    },
+    {
+      "arg":"aducanumab;;ff6f9caa-a7ed-06cf-8a42-ff205555e1c0",
+      "subtitle":"article (6) review (1) news (1) ",
+      "title":"aducanumab (8)"
+    },
+    {
+      "arg":"endophenotypes;;ec885176-c938-0bd0-80d9-8850cfd200a1",
+      "subtitle":"article (5) review (3) ",
+      "title":"endophenotypes (8)"
+    },
+    {
+      "arg":"genetics_of_FTD;;7c87f0ba-6020-03f1-9a78-3eda6fddd72d",
+      "subtitle":"review (7) commentary (1) ",
+      "title":"genetics_of_FTD (8)"
+    },
+    {
+      "arg":"behavior;;4b9d7148-259c-0b55-acb9-346f880c6390",
+      "subtitle":"review (4) article (4) ",
+      "title":"behavior (8)"
+    },
+    {
+      "arg":"MBI;;66380027-d83d-04e7-938d-2ecfe17c8316",
+      "subtitle":"article (8) ",
+      "title":"MBI (8)"
+    },
+    {
+      "arg":"statins;;53c8ba5b-3db8-0f95-9ddc-a76c5efdc920",
+      "subtitle":"article (5) review (3) ",
+      "title":"statins (8)"
+    },
+    {
+      "arg":"IOP;;75d67996-a28b-04f4-85f0-6543dbb7ad87",
+      "subtitle":"article (7) review (1) ",
+      "title":"IOP (8)"
+    },
+    {
+      "arg":"amyloidAntibodies;;72240c44-cbd8-0ed9-9dcf-5bcf0ba57d16",
+      "subtitle":"article (6) review (2) ",
+      "title":"amyloidAntibodies (8)"
+    },
+    {
+      "arg":"SCD;;36e1bc42-de43-0b47-b8f0-9e078988dddc",
+      "subtitle":"article (6) review (2) ",
+      "title":"SCD (8)"
+    },
+    {
+      "arg":"PD_GBA;;d41e88c4-af8c-0cc1-905e-7b0ccd699058",
+      "subtitle":"review (4) article (4) ",
+      "title":"PD_GBA (8)"
+    },
+    {
+      "arg":"c9_assay;;6924038e-001b-0c33-b671-624abc6f8fcf",
+      "subtitle":"article (7) review (1) ",
+      "title":"c9_assay (8)"
+    },
+    {
+      "arg":"AD_proxy;;e55f7308-1b7f-0498-b0bb-54d335b16118",
+      "subtitle":"article (7) preprint (1) ",
+      "title":"AD_proxy (8)"
+    },
+    {
+      "arg":"tauAntibodies;;93849fe8-322c-0fce-9e67-369b99adf199",
+      "subtitle":"article (5) review (2) preprint (1) ",
+      "title":"tauAntibodies (8)"
+    },
+    {
+      "arg":"2000;;b8954b03-5399-0022-b378-621b306de789",
+      "subtitle":"conference_paper (4) article (4) ",
+      "title":"2000 (8)"
+    },
+    {
+      "arg":"CTE;;c569d296-fb11-0094-ba9f-341da8eea5f7",
+      "subtitle":"article (5) review (2) ",
+      "title":"CTE (7)"
+    },
+    {
+      "arg":"GWAS_depression;;662bc770-3119-0b5a-9722-1e7ac0242c7f",
+      "subtitle":"article (6) preprint (1) ",
+      "title":"GWAS_depression (7)"
+    },
+    {
+      "arg":"UKB;;3f7e9b45-fcf3-0071-83af-a4dd3961204e",
+      "subtitle":"article (5) preprint (2) ",
+      "title":"UKB (7)"
+    },
+    {
+      "arg":"c9_haplotype;;a0908973-06eb-0cf1-b190-40626a9c37e4",
+      "subtitle":"article (6) review (1) ",
+      "title":"c9_haplotype (7)"
+    },
+    {
+      "arg":"LBD;;1590fc77-e724-0a39-9160-918abfc19b12",
+      "subtitle":"article (4) review (3) ",
+      "title":"LBD (7)"
+    },
+    {
+      "arg":"GeneticArchitectureDisease;;a1cd143d-8d66-0f57-989d-679ad8992902",
+      "subtitle":"article (5) preprint (1) review (1) ",
+      "title":"GeneticArchitectureDisease (7)"
+    },
+    {
+      "arg":"RNAediting;;0df33f7e-1d75-0d74-8df7-773fc5d39dd7",
+      "subtitle":"article (4) review (2) commentary (1) ",
+      "title":"RNAediting (7)"
+    },
+    {
+      "arg":"imputation;;50d754b2-f49b-0cb4-88b9-af1bc6f6bffa",
+      "subtitle":"article (6) review (1) ",
+      "title":"imputation (7)"
+    },
+    {
+      "arg":"TS_genes;;5c35ac13-0787-0ea6-a668-2d4fd9327f59",
+      "subtitle":"article (6) review (1) ",
+      "title":"TS_genes (7)"
+    },
+    {
+      "arg":"chimericMice;;dae56bc3-764e-0c86-8319-1f09baa78719",
+      "subtitle":"article (5) review (2) ",
+      "title":"chimericMice (7)"
+    },
+    {
+      "arg":"mentoring;;19ee4539-fcfe-0b8d-92d8-57f75d60061e",
+      "subtitle":"article (6) review (1) ",
+      "title":"mentoring (7)"
+    },
+    {
+      "arg":"microRNA;;d1fb3f2e-4756-0f63-8cf8-cbaf86596958",
+      "subtitle":"review (4) article (3) ",
+      "title":"microRNA (7)"
+    },
+    {
+      "arg":"gnomAD;;7ab7206d-d7de-04c4-89c9-24f5ef7ed935",
+      "subtitle":"article (6) preprint (1) ",
+      "title":"gnomAD (7)"
+    },
+    {
+      "arg":"ADGC;;37cd2135-edac-04de-837f-1a22b70b5260",
+      "subtitle":"article (7) ",
+      "title":"ADGC (7)"
+    },
+    {
+      "arg":"pruritus;;c661f202-b45d-0d3c-a021-fea439dd9246",
+      "subtitle":"review (4) article (2) commentary (1) ",
+      "title":"pruritus (7)"
+    },
+    {
+      "arg":"artisticTalent;;10a52a31-7ea7-03de-ab8d-97fa5df64542",
+      "subtitle":"article (5) review (2) ",
+      "title":"artisticTalent (7)"
+    },
+    {
+      "arg":"sleep;;b2234a13-43df-0abd-9458-e14e5ae718ff",
+      "subtitle":"article (5) preprint (1) ",
+      "title":"sleep (6)"
+    },
+    {
+      "arg":"populationSequencing;;d3355c24-57eb-0b2d-88dd-c1e6540996a2",
+      "subtitle":"article (5) review (1) ",
+      "title":"populationSequencing (6)"
+    },
+    {
+      "arg":"handedness;;762bb7ff-a3ad-0ff8-8317-0971909e12c0",
+      "subtitle":"preprint (2) review (2) article (2) ",
+      "title":"handedness (6)"
+    },
+    {
+      "arg":"GPR156;;6cfcff5f-877b-0b81-a969-0d10ce2f6b66",
+      "subtitle":"article (5) preprint (1) ",
+      "title":"GPR156 (6)"
+    },
+    {
+      "arg":"myPreprints;;6fff78e9-d349-0821-ad38-b7b4158ecc21",
+      "subtitle":"preprint (6) ",
+      "title":"myPreprints (6)"
+    },
+    {
+      "arg":"pleiotropy;;6093965f-0b97-040e-89da-62dfcd2d50dc",
+      "subtitle":"article (4) review (1) commentary (1) ",
+      "title":"pleiotropy (6)"
+    },
+    {
+      "arg":"MS_therapy;;c0952eb7-cb1d-0716-a781-5947c2488a36",
+      "subtitle":"review (4) article (2) ",
+      "title":"MS_therapy (6)"
+    },
+    {
+      "arg":"regionalVulnerability;;509e67bd-500a-0f6a-aaae-2573b50d5e9a",
+      "subtitle":"review (4) commentary (1) article (1) ",
+      "title":"regionalVulnerability (6)"
+    },
+    {
+      "arg":"apoe_receptors;;2f1fece4-7487-0dee-b2b9-c87c95163e05",
+      "subtitle":"article (4) review (2) ",
+      "title":"apoe_receptors (6)"
+    },
+    {
+      "arg":"multiOMICs;;1074a321-0082-0ed0-a55a-0b9966493887",
+      "subtitle":"review (4) article (2) ",
+      "title":"multiOMICs (6)"
+    },
+    {
+      "arg":"STAB1;;38968660-4195-0de1-9711-4a00326223f4",
+      "subtitle":"article (5) review (1) ",
+      "title":"STAB1 (6)"
+    },
+    {
+      "arg":"TOMM40;;0682189c-25d2-0a28-a734-cfb41e01588a",
+      "subtitle":"article (3) review (2) commentary (1) ",
+      "title":"TOMM40 (6)"
+    },
+    {
+      "arg":"GeneBurdenTests;;79a2b015-db1e-016a-bf20-996bea51905a",
+      "subtitle":"review (3) article (3) ",
+      "title":"GeneBurdenTests (6)"
+    },
+    {
+      "arg":"PD_therapy;;34b49164-b033-0d44-a3aa-7a8cfc49e81b",
+      "subtitle":"review (5) commentary (1) ",
+      "title":"PD_therapy (6)"
+    },
+    {
+      "arg":"tau_structure;;c659166a-c7ee-00a5-87b0-bf474c2f2180",
+      "subtitle":"article (5) review (1) ",
+      "title":"tau_structure (6)"
+    },
+    {
+      "arg":"PPA;;f2e6a0ba-daf5-06f1-bf44-d6ad42388b3f",
+      "subtitle":"review (3) article (3) ",
+      "title":"PPA (6)"
+    },
+    {
+      "arg":"4;;6f2841f7-3aed-0662-8bc3-6029f4d53e9f",
+      "subtitle":"review (3) article (2) preprint (1) ",
+      "title":"4 (6)"
+    },
+    {
+      "arg":"EatingDisorders;;7ecdb080-d439-0b5a-a948-053ebd95dd58",
+      "subtitle":"article (5) preprint (1) ",
+      "title":"EatingDisorders (6)"
+    },
+    {
+      "arg":"MS_review;;61b98684-7eaa-0a2f-92e3-9579b680239b",
+      "subtitle":"review (6) ",
+      "title":"MS_review (6)"
+    },
+    {
+      "arg":"TMEM106B;;3eec545b-3157-0cc2-a4f6-2f5e5eb070ef",
+      "subtitle":"article (5) review (1) ",
+      "title":"TMEM106B (6)"
+    },
+    {
+      "arg":"2002;;0f32e763-24b1-077c-80f4-b2364ef376d9",
+      "subtitle":"article (3) conference_paper (2) review (1) ",
+      "title":"2002 (6)"
+    },
+    {
+      "arg":"2006;;883d30c7-66d1-0df3-8988-0cece6b1ef66",
+      "subtitle":"article (4) review (2) ",
+      "title":"2006 (6)"
+    },
+    {
+      "arg":"2004;;cabc46bb-98b3-0d8e-87dd-6b629770182e",
+      "subtitle":"article (2) book_chapter (1) review (1) misc (1) commentary (1) ",
+      "title":"2004 (6)"
+    },
+    {
+      "arg":"genetics_of_ALS;;904755b5-3ffc-01e9-ac21-5299a087cf53",
+      "subtitle":"review (5) ",
+      "title":"genetics_of_ALS (5)"
+    },
+    {
+      "arg":"9\ud83d\udd25;;0150c2ea-12c5-050a-b442-78880cdb3583",
+      "subtitle":"review (5) ",
+      "title":"9\ud83d\udd25 (5)"
+    },
+    {
+      "arg":"AD_diagnosis;;710c571e-1c97-01c3-a375-d31f2d33177a",
+      "subtitle":"article (3) review (2) ",
+      "title":"AD_diagnosis (5)"
+    },
+    {
+      "arg":"GWAS_ALS;;83bccad4-da08-0cbf-8c49-0bb7e22a5373",
+      "subtitle":"article (4) preprint (1) ",
+      "title":"GWAS_ALS (5)"
+    },
+    {
+      "arg":"music;;ffbcdb61-2d39-0479-9916-ec811d648347",
+      "subtitle":"article (5) ",
+      "title":"music (5)"
+    },
+    {
+      "arg":"histoneMarks;;07b05c90-66b3-0b37-abca-ee069fa364e0",
+      "subtitle":"article (3) review (2) ",
+      "title":"histoneMarks (5)"
+    },
+    {
+      "arg":"epilepsy;;40421506-1bc5-0c1f-a9fc-ac896fd80148",
+      "subtitle":"review (4) preprint (1) ",
+      "title":"epilepsy (5)"
+    },
+    {
+      "arg":"epilepsy_genes;;19674d0c-0805-04e1-9dc2-9e042eb80d70",
+      "subtitle":"article (4) review (1) ",
+      "title":"epilepsy_genes (5)"
+    },
+    {
+      "arg":"retracted;;dc7ad305-b208-0e1c-a666-34bce2a7a336",
+      "subtitle":"article (5) ",
+      "title":"retracted (5)"
+    },
+    {
+      "arg":"snapshot;;4d3a19f4-45ab-03c2-88dd-b6b55bbb1a51",
+      "subtitle":"article (5) ",
+      "title":"snapshot (5)"
+    },
+    {
+      "arg":"TCR;;556e0a09-f415-0f2f-8a87-08cc591bf0b8",
+      "subtitle":"review (3) article (2) ",
+      "title":"TCR (5)"
+    },
+    {
+      "arg":"cd58;;7ba318d7-bc27-04a8-be3e-f08124f974f9",
+      "subtitle":"article (3) review (2) ",
+      "title":"cd58 (5)"
+    },
+    {
+      "arg":"smoking;;de79b5b3-6caa-0862-8678-0ac60d48bbd7",
+      "subtitle":"review (2) article (2) preprint (1) ",
+      "title":"smoking (5)"
+    },
+    {
+      "arg":"cisplatin;;52fbb1fa-05bb-0407-9b00-c82f67a76982",
+      "subtitle":"article (4) review (1) ",
+      "title":"cisplatin (5)"
+    },
+    {
+      "arg":"diffDiagnosis_dementia;;a5acb1c5-4643-0269-8687-9c7363b31e44",
+      "subtitle":"article (4) review (1) ",
+      "title":"diffDiagnosis_dementia (5)"
+    },
+    {
+      "arg":"SORL1;;f7327bb7-db49-024a-92fd-2fef979ab8bf",
+      "subtitle":"article (3) review (2) ",
+      "title":"SORL1 (5)"
+    },
+    {
+      "arg":"myOtherPublications;;10f3d725-8630-0dd9-8a10-b1bc6eaa81f7",
+      "subtitle":"book_chapter (2) review (1) misc (1) book (1) ",
+      "title":"myOtherPublications (5)"
+    },
+    {
+      "arg":"diabetes_retinopathy;;c6e50443-8adf-0f78-97a9-cfec2886cd75",
+      "subtitle":"article (3) review (1) commentary (1) ",
+      "title":"diabetes_retinopathy (5)"
+    },
+    {
+      "arg":"AD_inflammation;;ceadad2a-2db0-0e98-a989-a677fd87ad33",
+      "subtitle":"review (5) ",
+      "title":"AD_inflammation (5)"
+    },
+    {
+      "arg":"PD-1;;170e3bbc-e19c-0c6e-879e-3350fa056f24",
+      "subtitle":"article (4) review (1) ",
+      "title":"PD-1 (5)"
+    },
+    {
+      "arg":"CHARGE;;e4f21d85-cbb7-0b6d-9881-e84ace38dbe7",
+      "subtitle":"article (4) ",
+      "title":"CHARGE (4)"
+    },
+    {
+      "arg":"chipSeq;;3c064c90-e6bb-059d-a1b9-8623909b28a0",
+      "subtitle":"review (2) article (2) ",
+      "title":"chipSeq (4)"
+    },
+    {
+      "arg":"EWAS;;47b5f550-1afe-0a12-9cfb-99fe6d8b56fb",
+      "subtitle":"review (2) article (2) ",
+      "title":"EWAS (4)"
+    },
+    {
+      "arg":"migraine_therapy;;e65a4326-c4d5-044f-b872-09277c47c011",
+      "subtitle":"review (4) ",
+      "title":"migraine_therapy (4)"
+    },
+    {
+      "arg":"biomarkers_PET;;e8ad6d78-4694-06eb-af94-223976c365e4",
+      "subtitle":"article (3) review (1) ",
+      "title":"biomarkers_PET (4)"
+    },
+    {
+      "arg":"geneticIsolates;;370e898e-564e-0c01-af2a-83b37399c41f",
+      "subtitle":"article (4) ",
+      "title":"geneticIsolates (4)"
+    },
+    {
+      "arg":"GWAS_refractiveError;;ade97d90-6fdf-0237-817e-71171497fb4c",
+      "subtitle":"article (4) ",
+      "title":"GWAS_refractiveError (4)"
+    },
+    {
+      "arg":"SPARK;;94e10138-47d0-0738-9c47-67106ff33d0e",
+      "subtitle":"article (3) review (1) ",
+      "title":"SPARK (4)"
+    },
+    {
+      "arg":"GWAS_AS;;7c8a57d1-3893-0693-a538-8d56192e781a",
+      "subtitle":"article (4) ",
+      "title":"GWAS_AS (4)"
+    },
+    {
+      "arg":"IGAP;;e9c18372-daf8-049e-b016-60d9301cee85",
+      "subtitle":"article (3) preprint (1) ",
+      "title":"IGAP (4)"
+    },
+    {
+      "arg":"NLRP3;;77578f70-377e-0921-a098-174fd812f3ad",
+      "subtitle":"review (4) ",
+      "title":"NLRP3 (4)"
+    },
+    {
+      "arg":"neuroinflammation;;42783686-d34d-04c4-8ceb-600d6177cf28",
+      "subtitle":"review (2) commentary (1) article (1) ",
+      "title":"neuroinflammation (4)"
+    },
+    {
+      "arg":"tinnitus;;29fc420b-069e-0b37-ba8a-687944720357",
+      "subtitle":"article (3) review (1) ",
+      "title":"tinnitus (4)"
+    },
+    {
+      "arg":"GiantCellArteritis;;d70aa7eb-ba43-0bc2-a424-74d3566eae9b",
+      "subtitle":"book_chapter (2) book (1) article (1) ",
+      "title":"GiantCellArteritis (4)"
+    },
+    {
+      "arg":"alleleSpecificExpression;;4c0e7d1d-d36b-03d7-91d5-2c6deeb1300d",
+      "subtitle":"review (2) article (2) ",
+      "title":"alleleSpecificExpression (4)"
+    },
+    {
+      "arg":"adaptation;;b73db5d0-1b2c-0e4f-aef6-f0b68f871dfc",
+      "subtitle":"review (2) misc (1) article (1) ",
+      "title":"adaptation (4)"
+    },
+    {
+      "arg":"memento;;6e6ef09b-9b88-035a-ac9a-20dea04c4414",
+      "subtitle":"article (4) ",
+      "title":"memento (4)"
+    },
+    {
+      "arg":"protectiveVariants;;fd533bf7-37cc-07c2-924e-e18ce71a46c3",
+      "subtitle":"article (2) preprint (1) review (1) ",
+      "title":"protectiveVariants (4)"
+    },
+    {
+      "arg":"altoida;;ad6f8495-68f3-0d1c-adf1-e52402faad20",
+      "subtitle":"article (3) misc (1) ",
+      "title":"altoida (4)"
+    },
+    {
+      "arg":"geneExpr_Eye;;ed7f6e34-b75d-0c4d-8fdf-c7c630c2ed4d",
+      "subtitle":"article (4) ",
+      "title":"geneExpr_Eye (4)"
+    },
+    {
+      "arg":"GWAS_FTD;;040bd567-4048-0fbc-82f1-bbd00c5ca5f9",
+      "subtitle":"article (4) ",
+      "title":"GWAS_FTD (4)"
+    },
+    {
+      "arg":"GERAD;;ef90839b-c7f1-03b7-b40c-5ad578ff7c41",
+      "subtitle":"article (4) ",
+      "title":"GERAD (4)"
+    },
+    {
+      "arg":"GeneExpr_AD;;04623302-0547-03dd-86a2-01478417437b",
+      "subtitle":"article (3) preprint (1) ",
+      "title":"GeneExpr_AD (4)"
+    },
+    {
+      "arg":"dataVisualization;;e6bcf127-7535-0650-a3bb-2a2c5f04a6f8",
+      "subtitle":"article (4) ",
+      "title":"dataVisualization (4)"
+    },
+    {
+      "arg":"eQTL_devel;;b96e33d7-1aa6-08a1-ab5c-64579e28d02e",
+      "subtitle":"article (4) ",
+      "title":"eQTL_devel (4)"
+    },
+    {
+      "arg":"poor;;ca19bca5-921e-0628-886c-5f62c7a3652d",
+      "subtitle":"review (2) article (2) ",
+      "title":"poor (4)"
+    },
+    {
+      "arg":"pheWas;;d4017ebc-4bab-04dd-8812-e65373683800",
+      "subtitle":"preprint (1) review (1) article (1) ",
+      "title":"pheWas (3)"
+    },
+    {
+      "arg":"bispecifics;;2e8b4362-d084-0010-8adb-0ad995398ad4",
+      "subtitle":"preprint (1) review (1) article (1) ",
+      "title":"bispecifics (3)"
+    },
+    {
+      "arg":"PD_mousemodels;;82076405-c175-08a0-b27e-a74227d38fd3",
+      "subtitle":"article (2) review (1) ",
+      "title":"PD_mousemodels (3)"
+    },
+    {
+      "arg":"1999;;98c5e2d4-bd19-07cf-82ff-df5498ad7546",
+      "subtitle":"article (3) ",
+      "title":"1999 (3)"
+    },
+    {
+      "arg":"WES_ALS;;d0f83c21-4c9d-067a-95bd-588a98eaaac9",
+      "subtitle":"article (3) ",
+      "title":"WES_ALS (3)"
+    },
+    {
+      "arg":"RLS;;c037717d-7ac4-0455-b076-a612d883631c",
+      "subtitle":"review (3) ",
+      "title":"RLS (3)"
+    },
+    {
+      "arg":"NCL;;df4f529b-e372-066f-b4b9-2b20b9f36202",
+      "subtitle":"article (2) review (1) ",
+      "title":"NCL (3)"
+    },
+    {
+      "arg":"pathwayAnalysis;;27da3bc2-7137-0881-b1b7-121fd4f76653",
+      "subtitle":"review (2) article (1) ",
+      "title":"pathwayAnalysis (3)"
+    },
+    {
+      "arg":"hyperemesisGravidarum;;c37c5e34-668c-042d-8991-e3153a5f58ca",
+      "subtitle":"article (2) review (1) ",
+      "title":"hyperemesisGravidarum (3)"
+    },
+    {
+      "arg":"ataxias;;08e8f6c8-8fae-035f-8e16-4bbb2744e4ab",
+      "subtitle":"review (2) article (1) ",
+      "title":"ataxias (3)"
+    },
+    {
+      "arg":"F12;;397e241f-1082-0177-870e-3bf20d26e9f2",
+      "subtitle":"review (2) article (1) ",
+      "title":"F12 (3)"
+    },
+    {
+      "arg":"guam;;b42ac12a-0ae9-0fb4-b6ca-0b5bb40580e9",
+      "subtitle":"book_chapter (1) news (1) article (1) ",
+      "title":"guam (3)"
+    },
+    {
+      "arg":"triplets;;a122e83a-7f3c-0fd2-8bc0-be820293587a",
+      "subtitle":"article (2) review (1) ",
+      "title":"triplets (3)"
+    },
+    {
+      "arg":"iPSC_microglia;;440df436-9d70-0d74-9622-11414e2d4dd8",
+      "subtitle":"article (3) ",
+      "title":"iPSC_microglia (3)"
+    },
+    {
+      "arg":"WTCCC;;49dd4a49-115d-08ec-93b2-2eab43ff3bfd",
+      "subtitle":"article (3) ",
+      "title":"WTCCC (3)"
+    },
+    {
+      "arg":"bloodGenetics;;57d590fd-23e0-00d2-998e-5bb17298942d",
+      "subtitle":"article (3) ",
+      "title":"bloodGenetics (3)"
+    },
+    {
+      "arg":"GOF;;9376c93c-18c8-0c97-a547-1d0b102db4de",
+      "subtitle":"article (3) ",
+      "title":"GOF (3)"
+    },
+    {
+      "arg":"exosomes;;4db35e33-4697-0caa-8be4-4b0451fc733e",
+      "subtitle":"article (2) review (1) ",
+      "title":"exosomes (3)"
+    },
+    {
+      "arg":"biomarkers_Abeta;;d3185aee-1a87-0f02-b36d-1b09bf51f41b",
+      "subtitle":"article (3) ",
+      "title":"biomarkers_Abeta (3)"
+    },
+    {
+      "arg":"ad_path;;ccc5cf32-d5f8-048d-9f45-45c310723702",
+      "subtitle":"review (2) article (1) ",
+      "title":"ad_path (3)"
+    },
+    {
+      "arg":"3;;56c111c1-d6c2-07d4-94ce-3a3c8c482010",
+      "subtitle":"review (2) article (1) ",
+      "title":"3 (3)"
+    },
+    {
+      "arg":"hippocampus;;a74164fc-f810-00ed-9eb9-1c83fadd7005",
+      "subtitle":"article (3) ",
+      "title":"hippocampus (3)"
+    },
+    {
+      "arg":"TNFRSF1A;;cff8dcac-c009-0a0d-aeb0-25e6bc11db99",
+      "subtitle":"article (2) review (1) ",
+      "title":"TNFRSF1A (3)"
+    },
+    {
+      "arg":"CHIP;;84fe9420-0cc2-00e9-af12-9b7b0fcb04cd",
+      "subtitle":"article (2) review (1) ",
+      "title":"CHIP (3)"
+    },
+    {
+      "arg":"AD_imaging;;47f9b8ca-06c2-0fb1-baf7-ac968e378abf",
+      "subtitle":"article (2) review (1) ",
+      "title":"AD_imaging (3)"
+    },
+    {
+      "arg":"CBD;;77b2755f-5db2-038b-b71a-8f654a27b5c4",
+      "subtitle":"article (2) review (1) ",
+      "title":"CBD (3)"
+    },
+    {
+      "arg":"SCAs;;813acf7a-309e-0967-a513-fa13cf4d7262",
+      "subtitle":"review (2) book_chapter (1) ",
+      "title":"SCAs (3)"
+    },
+    {
+      "arg":"osteoarthritis;;82c7724d-6e7a-078a-ae4b-28348c71d115",
+      "subtitle":"article (3) ",
+      "title":"osteoarthritis (3)"
+    },
+    {
+      "arg":"asthma;;610fea96-15f6-011f-aef4-c7e0edf0e3e4",
+      "subtitle":"article (2) review (1) ",
+      "title":"asthma (3)"
+    },
+    {
+      "arg":"pedigreeAnalysis;;0e49eb16-75d2-0086-a150-969513be6b57",
+      "subtitle":"review (2) article (1) ",
+      "title":"pedigreeAnalysis (3)"
+    },
+    {
+      "arg":"WES_MS;;e28c57e2-1edf-068c-9147-710b628ae60f",
+      "subtitle":"article (2) commentary (1) ",
+      "title":"WES_MS (3)"
+    },
+    {
+      "arg":"WES_autism;;0291640e-c7ea-0f6e-8727-a700a2d63a05",
+      "subtitle":"article (3) ",
+      "title":"WES_autism (3)"
+    },
+    {
+      "arg":"immunotherapy;;bc8fcc9c-f744-0d4b-aa9a-4b6bb9feb89d",
+      "subtitle":"review (3) ",
+      "title":"immunotherapy (3)"
+    },
+    {
+      "arg":"FUS_mutations;;4479f3c1-41b8-0276-87a7-5145f5d44f71",
+      "subtitle":"article (2) review (1) ",
+      "title":"FUS_mutations (3)"
+    },
+    {
+      "arg":"biobanks;;fa425a8c-c041-03a3-8909-c9f775872f8c",
+      "subtitle":"article (2) preprint (1) ",
+      "title":"biobanks (3)"
+    },
+    {
+      "arg":"electrophysiology;;7294b4d1-f6c2-0d5d-a474-763f8c54f00e",
+      "subtitle":"article (2) ",
+      "title":"electrophysiology (2)"
+    },
+    {
+      "arg":"GRN_mutations;;9bca3769-52e9-0ba0-b948-6838477cdcf8",
+      "subtitle":"article (2) ",
+      "title":"GRN_mutations (2)"
+    },
+    {
+      "arg":"vitiligo;;a9e5465d-0743-0cfb-899b-7f61f85538bb",
+      "subtitle":"review (2) ",
+      "title":"vitiligo (2)"
+    },
+    {
+      "arg":"sequencing_array;;fc1eaab4-9796-0da0-9f72-6bbf370689eb",
+      "subtitle":"article (2) ",
+      "title":"sequencing_array (2)"
+    },
+    {
+      "arg":"psoriasis;;0d20e02e-87be-063f-a866-9bbc81e9add5",
+      "subtitle":"review (1) article (1) ",
+      "title":"psoriasis (2)"
+    },
+    {
+      "arg":"coneRatio;;8bbbaf0a-65e0-0dc6-9604-50155ed1d33e",
+      "subtitle":"article (2) ",
+      "title":"coneRatio (2)"
+    },
+    {
+      "arg":"ALS_risk;;178753ce-0675-05e4-aa22-e3c5135f278c",
+      "subtitle":"review (1) article (1) ",
+      "title":"ALS_risk (2)"
+    },
+    {
+      "arg":"PSP_therapy;;f9701035-b50e-087a-a180-0b4ae895248f",
+      "subtitle":"review (1) article (1) ",
+      "title":"PSP_therapy (2)"
+    },
+    {
+      "arg":"HIF;;eae9406a-f80b-021a-9e1d-2b3a6d463da1",
+      "subtitle":"review (1) article (1) ",
+      "title":"HIF (2)"
+    },
+    {
+      "arg":"MS_genes;;6c891e0c-7953-0a06-b77f-53d2391f7bef",
+      "subtitle":"article (2) ",
+      "title":"MS_genes (2)"
+    },
+    {
+      "arg":"slc20a2;;6a84ea49-1e54-0079-b79d-c0f33af7c617",
+      "subtitle":"article (2) ",
+      "title":"slc20a2 (2)"
+    },
+    {
+      "arg":"greenMeat;;391dc3e1-278a-0c6f-8fc2-a2513c59d77a",
+      "subtitle":"article (2) ",
+      "title":"greenMeat (2)"
+    },
+    {
+      "arg":"HD_therapy;;852f768b-dbca-028e-bd6d-f9a5390c9d65",
+      "subtitle":"article (2) ",
+      "title":"HD_therapy (2)"
+    },
+    {
+      "arg":"deCODE;;a8f3b68c-d80e-0cdb-bec0-1097fe706554",
+      "subtitle":"preprint (1) article (1) ",
+      "title":"deCODE (2)"
+    },
+    {
+      "arg":"AD_cohorts;;86c8eb60-5201-09cb-8911-16ab20713115",
+      "subtitle":"article (2) ",
+      "title":"AD_cohorts (2)"
+    },
+    {
+      "arg":"surveys;;b0eb4d1c-45d4-09dd-89bb-8dc5b34917fe",
+      "subtitle":"article (2) ",
+      "title":"surveys (2)"
+    },
+    {
+      "arg":"GWAS_eatingDisorders;;6b4e6807-88b8-0209-8e28-8dade5522770",
+      "subtitle":"article (2) ",
+      "title":"GWAS_eatingDisorders (2)"
+    },
+    {
+      "arg":"FARA papers;;6dc7af3d-f45a-0c6b-93e5-6f2ba4089b06",
+      "subtitle":"article (2) ",
+      "title":"FARA papers (2)"
+    },
+    {
+      "arg":"PGC-ALZ;;778f95e2-a7d2-087e-b466-66bfe026df5b",
+      "subtitle":"article (2) ",
+      "title":"PGC-ALZ (2)"
+    },
+    {
+      "arg":"anatomy;;3f6d318e-bf52-0e84-a603-4690becbe978",
+      "subtitle":"article (2) ",
+      "title":"anatomy (2)"
+    },
+    {
+      "arg":"nonCodingVariation;;aa9867f3-bcb1-06a1-a650-9240dd7cc866",
+      "subtitle":"article (2) ",
+      "title":"nonCodingVariation (2)"
+    },
+    {
+      "arg":"dystonia;;dea8250c-0d9d-083a-ac17-2958b120e563",
+      "subtitle":"review (2) ",
+      "title":"dystonia (2)"
+    },
+    {
+      "arg":"proteasome;;1dc70a24-9373-07a7-a314-fc66f3cdd566",
+      "subtitle":"article (2) ",
+      "title":"proteasome (2)"
+    },
+    {
+      "arg":"reference;;951503bf-2167-075d-afd3-d25b1884d6d7",
+      "subtitle":"book (2) ",
+      "title":"reference (2)"
+    },
+    {
+      "arg":"ms_risk;;fcc5b2f6-c651-0903-a04f-e3ea647446ee",
+      "subtitle":"review (1) article (1) ",
+      "title":"ms_risk (2)"
+    },
+    {
+      "arg":"cloudComputing;;75478c34-c00b-0529-81ed-bb0aac8bad58",
+      "subtitle":"review (1) article (1) ",
+      "title":"cloudComputing (2)"
+    },
+    {
+      "arg":"mitralic;;f85119ee-ebe6-0afd-8432-16a015a50342",
+      "subtitle":"commentary (1) article (1) ",
+      "title":"mitralic (2)"
+    },
+    {
+      "arg":"nomenclature;;6b98b3ae-cd91-0ef3-8788-a1d31f7b1c8e",
+      "subtitle":"article (2) ",
+      "title":"nomenclature (2)"
+    },
+    {
+      "arg":"FTD_therapy;;0899c8eb-a83a-0661-8131-bb02c62f2a40",
+      "subtitle":"review (2) ",
+      "title":"FTD_therapy (2)"
+    },
+    {
+      "arg":"spinaBifida;;8d7b0862-fd38-0c48-91d9-8e06324c3156",
+      "subtitle":"review (1) article (1) ",
+      "title":"spinaBifida (2)"
+    },
+    {
+      "arg":"SCI;;dea2c99a-dba8-0ed5-b654-29a5954999b0",
+      "subtitle":"article (2) ",
+      "title":"SCI (2)"
+    },
+    {
+      "arg":"phasing;;4bd16d9e-be8a-00f0-8ded-14a8903faff3",
+      "subtitle":"review (2) ",
+      "title":"phasing (2)"
+    },
+    {
+      "arg":"IL-34;;db88de70-628a-0bfa-a40e-ab04ab0b2991",
+      "subtitle":"review (2) ",
+      "title":"IL-34 (2)"
+    },
+    {
+      "arg":"GTEx;;d62d32e2-9575-0ac7-b03c-b89f705bfff8",
+      "subtitle":"preprint (1) article (1) ",
+      "title":"GTEx (2)"
+    },
+    {
+      "arg":"myPatents;;d388a9fa-41d1-0f6d-86c6-afd281735b7a",
+      "subtitle":"patent (2) ",
+      "title":"myPatents (2)"
+    },
+    {
+      "arg":"22q11.2;;2066a3ee-837e-0427-b57f-e337bedbb9c1",
+      "subtitle":"review (1) article (1) ",
+      "title":"22q11.2 (2)"
+    },
+    {
+      "arg":"eMERGE;;10293ab8-5d39-0e19-a4b4-3a8476b0263a",
+      "subtitle":"article (2) ",
+      "title":"eMERGE (2)"
+    },
+    {
+      "arg":"2003;;1da0db10-2128-02f4-80e8-684f7588cce9",
+      "subtitle":"article (2) ",
+      "title":"2003 (2)"
+    },
+    {
+      "arg":"MTAG;;87cf80ed-e0c0-0ebf-b3f0-6e409f4afa5c",
+      "subtitle":"article (2) ",
+      "title":"MTAG (2)"
+    },
+    {
+      "arg":"CAA_mouseModels;;47ff459a-866e-036a-86ef-00968a6a2440",
+      "subtitle":"article (2) ",
+      "title":"CAA_mouseModels (2)"
+    },
+    {
+      "arg":"genetics_of_PSP;;e0e5fd7f-8815-0e04-9a57-ab71f422cba3",
+      "subtitle":"review (1) ",
+      "title":"genetics_of_PSP (1)"
+    },
+    {
+      "arg":"psen1_mutations;;00b6b48c-1018-0a9f-b254-6e952834fe49",
+      "subtitle":"article (1) ",
+      "title":"psen1_mutations (1)"
+    },
+    {
+      "arg":"ips_Schwann;;845245d6-5de5-0199-982f-45f4d20405a4",
+      "subtitle":"article (1) ",
+      "title":"ips_Schwann (1)"
+    },
+    {
+      "arg":"gut;;cba801eb-195a-0e87-b80a-f277cc5a0847",
+      "subtitle":"article (1) ",
+      "title":"gut (1)"
+    },
+    {
+      "arg":"WES_AMD;;4c89d6e1-c426-04bd-bf7b-337e0f73d980",
+      "subtitle":"article (1) ",
+      "title":"WES_AMD (1)"
+    },
+    {
+      "arg":"immune_AD;;007b749d-b15e-09e5-8e9d-6bd92561c8f1",
+      "subtitle":"article (1) ",
+      "title":"immune_AD (1)"
+    },
+    {
+      "arg":"cohorts;;ad6ccde0-6e7b-071f-be76-00ae5db2177b",
+      "subtitle":"review (1) ",
+      "title":"cohorts (1)"
+    },
+    {
+      "arg":"brainStimulation;;71faabee-0e66-0dd1-821c-9b091dd78947",
+      "subtitle":"article (1) ",
+      "title":"brainStimulation (1)"
+    },
+    {
+      "arg":"tremor;;da191a82-57cf-0d7f-9ea9-7686edc6429f",
+      "subtitle":"article (1) ",
+      "title":"tremor (1)"
+    },
+    {
+      "arg":"cataract;;fd6544df-b163-0656-99d2-860014db37de",
+      "subtitle":"preprint (1) ",
+      "title":"cataract (1)"
+    },
+    {
+      "arg":"AD_sex;;198ccf4a-8dc9-0038-bc6d-4df16d402048",
+      "subtitle":"review (1) ",
+      "title":"AD_sex (1)"
+    },
+    {
+      "arg":"transplant;;dd9386f3-3038-0202-990f-3a389e481712",
+      "subtitle":"review (1) ",
+      "title":"transplant (1)"
+    },
+    {
+      "arg":"iPS_muscle;;549f892d-6d0d-09fd-9340-227c771105d9",
+      "subtitle":"article (1) ",
+      "title":"iPS_muscle (1)"
+    },
+    {
+      "arg":"circularRNA;;b07bc576-ea43-0483-814b-e109ea71fb53",
+      "subtitle":"article (1) ",
+      "title":"circularRNA (1)"
+    },
+    {
+      "arg":"ug3_NS104095;;adc5ea5d-a955-0ef2-996b-6fc7f0a8fed3",
+      "subtitle":"article (1) ",
+      "title":"ug3_NS104095 (1)"
+    },
+    {
+      "arg":"erratum;;9e1fbc5b-1ad4-0bbe-b502-05343e6e4adb",
+      "subtitle":"article (1) ",
+      "title":"erratum (1)"
+    },
+    {
+      "arg":"ABCA7;;6199a0a7-e8e7-0ac1-bfde-f226c03607a0",
+      "subtitle":"article (1) ",
+      "title":"ABCA7 (1)"
+    },
+    {
+      "arg":"opticNerve_regeneration;;e8a152f0-96f7-0d80-92fe-5b0df7c72703",
+      "subtitle":"article (1) ",
+      "title":"opticNerve_regeneration (1)"
+    },
+    {
+      "arg":"AD_animalModels;;628b06af-3a92-05ce-9cc8-aa6b9f74f5b9",
+      "subtitle":"article (1) ",
+      "title":"AD_animalModels (1)"
+    },
+    {
+      "arg":"IL-1;;ebb33839-bd05-0296-8510-ebab1cb0c345",
+      "subtitle":"review (1) ",
+      "title":"IL-1 (1)"
+    },
+    {
+      "arg":"ligand-receptor;;f06267da-762a-0256-9a47-87249a327716",
+      "subtitle":"article (1) ",
+      "title":"ligand-receptor (1)"
+    },
+    {
+      "arg":"cleanMeat;;afdf1f98-33fc-08c8-b3bd-03bc9a872657",
+      "subtitle":"article (1) ",
+      "title":"cleanMeat (1)"
+    },
+    {
+      "arg":"IL-12;;d64224f2-e3bf-07ba-9391-5373fc5db6fd",
+      "subtitle":"review (1) ",
+      "title":"IL-12 (1)"
+    },
+    {
+      "arg":"templates;;9aa8706c-daaf-0935-8f09-7fa1af5264fd",
+      "subtitle":"article (1) ",
+      "title":"templates (1)"
+    },
+    {
+      "arg":"FinnGen;;f319dbdc-a73a-0532-b5fc-77736a5053fa",
+      "subtitle":"preprint (1) ",
+      "title":"FinnGen (1)"
+    },
+    {
+      "arg":"myLetters;;c2dfa2f7-96d8-081a-a988-fc8ec466e82b",
+      "subtitle":"commentary (1) ",
+      "title":"myLetters (1)"
+    },
+    {
+      "arg":"il-23;;d7fd1726-f41b-0304-8b6a-3ce578469fc8",
+      "subtitle":"article (1) ",
+      "title":"il-23 (1)"
+    },
+    {
+      "arg":"bitcoin;;28d6417a-3bc1-0552-8045-e0b63d3ac6fd",
+      "subtitle":"article (1) ",
+      "title":"bitcoin (1)"
+    },
+    {
+      "arg":"GWAS_cognitive;;5d580442-9ca2-042f-b989-0d0a717e9ceb",
+      "subtitle":"article (1) ",
+      "title":"GWAS_cognitive (1)"
+    },
+    {
+      "arg":"2;;05084e0e-c1a6-090e-a72e-a16ea3316249",
+      "subtitle":"article (1) ",
+      "title":"2 (1)"
+    },
+    {
+      "arg":"QTL;;ee187a3e-b456-0d37-bce3-4f906930b4be",
+      "subtitle":"article (1) ",
+      "title":"QTL (1)"
+    },
+    {
+      "arg":"HDACi;;f4d9335c-c020-0cf1-a41d-3e6bfdeefec5",
+      "subtitle":"article (1) ",
+      "title":"HDACi (1)"
+    },
+    {
+      "arg":"RetinopathyPrematurity;;ac70ed00-8ef2-00b8-ba33-32bd1ee34d98",
+      "subtitle":"review (1) ",
+      "title":"RetinopathyPrematurity (1)"
+    },
+    {
+      "arg":"fuchs;;b428dba7-3be1-0c28-b437-7d8b1a4e8110",
+      "subtitle":"article (1) ",
+      "title":"fuchs (1)"
+    },
+    {
+      "arg":"drugProfiling;;ff402376-ad5d-0bfd-96d8-53d2d97950e6",
+      "subtitle":"article (1) ",
+      "title":"drugProfiling (1)"
+    },
+    {
+      "arg":"GR@ACE;;010d4532-f0c5-0e15-ae48-c9ea51db892f",
+      "subtitle":"article (1) ",
+      "title":"GR@ACE (1)"
+    },
+    {
+      "arg":"bookReviews;;1e4a8910-c8f4-0053-9015-aff10792fe81",
+      "subtitle":"article (1) ",
+      "title":"bookReviews (1)"
+    },
+    {
+      "arg":"ALS_therapy;;82dff963-d1da-0bc5-847a-ec9ed136b749",
+      "subtitle":"article (1) ",
+      "title":"ALS_therapy (1)"
+    },
+    {
+      "arg":"caseReport;;b27386fc-a29a-07f0-ba71-1b25d747c0d0",
+      "subtitle":"article (1) ",
+      "title":"caseReport (1)"
+    },
+    {
+      "arg":"pd_animalmodels;;357dce09-3699-0396-a9cd-c321f2a1af97",
+      "subtitle":"article (1) ",
+      "title":"pd_animalmodels (1)"
+    },
+    {
+      "arg":"primates;;e705cd96-ec65-087a-9f99-4c046045e474",
+      "subtitle":"article (1) ",
+      "title":"primates (1)"
+    },
+    {
+      "arg":"biomarkers_review;;a0a0a087-6406-0957-b0c2-0285e19ebd2b",
+      "subtitle":"review (1) ",
+      "title":"biomarkers_review (1)"
+    },
+    {
+      "arg":"PSP_genes;;f6c11eac-af50-0257-8a67-5b46d1b4d11f",
+      "subtitle":"article (1) ",
+      "title":"PSP_genes (1)"
+    },
+    {
+      "arg":"forTalks;;ed66035e-6042-0ef2-a6b8-0376831b99a7",
+      "subtitle":"article (1) ",
+      "title":"forTalks (1)"
+    },
+    {
+      "arg":"WES_PD;;751d3668-95aa-0da8-a395-fa6bbb21382f",
+      "subtitle":"preprint (1) ",
+      "title":"WES_PD (1)"
+    },
+    {
+      "arg":"OTOF;;944aecfd-f268-0589-b18a-893963a0f1da",
+      "subtitle":"article (1) ",
+      "title":"OTOF (1)"
+    },
+    {
+      "arg":"apoe_expression;;9497ccbd-94db-0641-bd1f-2f5ce5783fd0",
+      "subtitle":"preprint (1) ",
+      "title":"apoe_expression (1)"
+    },
+    {
+      "arg":"APP_mutations;;16d966f7-da23-0af1-8d9f-a3d1ce869a4c",
+      "subtitle":"article (1) ",
+      "title":"APP_mutations (1)"
+    },
+    {
+      "arg":"HNP;;d39082f5-d54a-0929-9699-8adc33b891d4",
+      "subtitle":"article (1) ",
+      "title":"HNP (1)"
+    },
+    {
+      "arg":"PD_biomarkers;;68371da9-6073-0cb2-857a-3e818227ed8c",
+      "subtitle":"review (1) ",
+      "title":"PD_biomarkers (1)"
+    },
+    {
+      "arg":"pericyte;;5470abe4-e911-08c7-922d-3badf45b4835",
+      "subtitle":"article (1) ",
+      "title":"pericyte (1)"
+    },
+    {
+      "arg":"C5;;8ad98ee5-9c7f-0078-9ed6-706688568fc9",
+      "subtitle":"article (1) ",
+      "title":"C5 (1)"
+    },
+    {
+      "arg":"saithoin;;f6805019-9282-0a56-bd34-423f3e6b1e30",
+      "subtitle":"article (1) ",
+      "title":"saithoin (1)"
+    },
+    {
+      "arg":"patents;;8d4a417d-3a5c-0399-b1e8-51bc62799473",
+      "subtitle":"patent (1) ",
+      "title":"patents (1)"
+    },
+    {
+      "arg":"PSEN2_mutations;;af1d3cbf-f58a-04e0-a927-b6844646fdff",
+      "subtitle":"article (1) ",
+      "title":"PSEN2_mutations (1)"
+    },
+    {
+      "arg":"PART;;036303fc-4f5f-0df1-aae7-24281f51d88e",
+      "subtitle":"article (1) ",
+      "title":"PART (1)"
+    },
+    {
+      "arg":"caregiver;;0ef8d40e-63b9-0fa3-87fd-3c6c35dcad2d",
+      "subtitle":"article (1) ",
+      "title":"caregiver (1)"
+    },
+    {
+      "arg":"SOD1;;7e6ae422-28bf-074d-9ddf-f6bd99ae359e",
+      "subtitle":"article (1) ",
+      "title":"SOD1 (1)"
+    },
+    {
+      "arg":"CD22;;6fc571a0-3d5c-05fa-93a3-d6de692958cc",
+      "subtitle":"article (1) ",
+      "title":"CD22 (1)"
+    },
+    {
+      "arg":"GWAS_stroke;;888f2395-d777-0c87-9c9b-fd9934c6a507",
+      "subtitle":"article (1) ",
+      "title":"GWAS_stroke (1)"
+    },
+    {
+      "arg":"caloricRestriction;;79b77ea2-5777-015a-82b2-d389fb668818",
+      "subtitle":"review (1) ",
+      "title":"caloricRestriction (1)"
+    },
+    {
+      "arg":"CCR5;;438d2897-c5d3-00f9-b403-d38fdbb4683c",
+      "subtitle":"article (1) ",
+      "title":"CCR5 (1)"
+    },
+    {
+      "arg":"power;;924855e0-a7f4-0a95-a8b7-3fbdc160a7a7",
+      "subtitle":"article (1) ",
+      "title":"power (1)"
+    },
+    {
+      "arg":"EADI;;b0dce816-6658-0927-bb56-e4095fb0f22c",
+      "subtitle":"article (1) ",
+      "title":"EADI (1)"
+    },
+    {
+      "arg":"cellType;;34f99feb-c2d0-02ce-a50d-985c5974e8ed",
+      "subtitle":"review (1) ",
+      "title":"cellType (1)"
+    },
+    {
+      "arg":"TWAS;;24d4a7d6-e2af-0446-b993-3781352c5036",
+      "subtitle":"article (1) ",
+      "title":"TWAS (1)"
+    },
+    {
+      "arg":"ADHD;;34c3b20c-09be-02ec-866d-ebb1d96d7961",
+      "subtitle":"article (1) ",
+      "title":"ADHD (1)"
+    },
+    {
+      "arg":"OCD;;27578964-ab14-06cd-9ec2-580cdb904aa7",
+      "subtitle":"review (1) ",
+      "title":"OCD (1)"
+    },
+    {
+      "arg":"partitioning;;c6a33486-f15c-0df3-9cc7-879581a8db95",
+      "subtitle":"article (1) ",
+      "title":"partitioning (1)"
+    },
+    {
+      "arg":"hypertension;;d133ae68-3e15-0c16-941b-ba585f08a137",
+      "subtitle":"review (1) ",
+      "title":"hypertension (1)"
+    },
+    {
+      "arg":"glaucoma_animalModels;;b2651a45-9a8d-0058-94e9-db2f4bd69f70",
+      "subtitle":"review (1) ",
+      "title":"glaucoma_animalModels (1)"
+    },
+    {
+      "arg":"diabetes_neuropathy;;9caea492-8d37-07be-ae2c-58018d91ae8a",
+      "subtitle":"article (1) ",
+      "title":"diabetes_neuropathy (1)"
+    },
+    {
+      "arg":"nucSeq;;b0569d2f-4c92-026f-8fa5-0d93ef27d5d7",
+      "subtitle":"article (1) ",
+      "title":"nucSeq (1)"
+    },
+    {
+      "arg":"NRX1;;01ef858e-ac53-0ca5-af16-95d6d9e2e9dd",
+      "subtitle":"article (1) ",
+      "title":"NRX1 (1)"
+    },
+    {
+      "arg":"2001;;769ad7b4-edd1-019f-abb7-eeb05d9781dc",
+      "subtitle":"article (1) ",
+      "title":"2001 (1)"
+    },
+    {
+      "arg":"2005;;86713eb0-8da0-0517-8f37-31ab07a7339b",
+      "subtitle":"article (1) ",
+      "title":"2005 (1)"
+    }
+  ]
+}
