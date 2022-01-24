@@ -6,10 +6,12 @@ Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://ww
 ![](images/demo_v1.0.gif "")
 
 <a href="https://github.com/giovannicoppola/paperpAlfred/releases/latest/">
-  
-  <img alt="Downloads"
-       src="https://img.shields.io/github/downloads/giovannicoppola/paperpAlfred/total?color=purple&label=Downloads"><br/>
+<img alt="Downloads"
+src="https://img.shields.io/github/downloads/giovannicoppola/paperpAlfred/total?color=purple&label=Downloads"><br/>
 </a>
+
+https://img.shields.io/github/downloads/giovannicoppola/paperpAlfred/total?color=purple&label=Downloads
+
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
 
 - [Setting up](#setting-up)
