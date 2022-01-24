@@ -5,7 +5,11 @@ Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://ww
 
 ![](images/demo_v1.0.gif "")
 
-
+<a href="https://github.com/giovannicoppola/paperpAlfred/releases/latest/">
+  <img src="icon.png" width="16%"><br/>
+  <img alt="Download"
+       src="https://img.shields.io/github/downloads/giovannicoppola/paperpAlfred/total?color=purple&label=Download"><br/>
+</a>
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
 
 - [Setting up](#setting-up)
