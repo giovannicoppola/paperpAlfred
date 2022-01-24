@@ -7,7 +7,7 @@ Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://ww
 
 <a href="https://github.com/giovannicoppola/paperpAlfred/releases/latest/">
   
-  <img alt="Download"
+  <img alt="Downloads"
        src="https://img.shields.io/github/downloads/giovannicoppola/paperpAlfred/total?color=purple&label=Downloads"><br/>
 </a>
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
