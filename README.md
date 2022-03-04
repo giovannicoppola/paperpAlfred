@@ -40,10 +40,10 @@ src="https://img.shields.io/github/release-date/giovannicoppola/paperpAlfred?col
 	- in Paperpile, cogwheel > Settings > Export > Export to JSON
 <img src='images/pp_json.png' width="500">
 3. Set the `PAPLIBRARY` path
-	- Copy the library file path to the clipboard 
-		- In Alfred, search the file, right arrow, select `Copy Path to Clipboard`
-		- In Finder, right-click the file, press option (⌥), the select `Copy [FileName] as Pathname`
-		- Open the 'Configure Workflow and Variables' window in paperpAlfred preferences
+- Copy the library file path to the clipboard 
+	- In Alfred, search the file, right arrow, select `Copy Path to Clipboard`
+	- In Finder, right-click the file, press option (⌥), the select `Copy [FileName] as Pathname`
+	- Open the 'Configure Workflow and Variables' window in paperpAlfred preferences
 			<img src='images/alfred_prefs.png' width="500">	
 	- paste the path to library as the `PAPLIBRARY` value
 4. _Optional:_ Set `PAPPATH` (Path to Paperpile in Google Drive)
