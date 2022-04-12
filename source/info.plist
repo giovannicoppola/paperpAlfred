@@ -652,7 +652,8 @@ python3 folders.py "$1"
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>python types.py "$1"</string>
+				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
+python3 myTypes.py "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -792,9 +793,6 @@ python3 folders.py "$1"
 				<string>❗Please wait while I rebuild the database❗</string>
 				<key>script</key>
 				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
-
-#printf "%s" "9999999" &gt; "/Users/giovanni/Library/Caches/com.runningwithcrayons.Alfred/Workflow Data/giovanni-paperpAlfred3/timestamp.txt"
-
 python3 papers.py "$1"
 
 
