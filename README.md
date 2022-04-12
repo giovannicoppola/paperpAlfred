@@ -36,22 +36,27 @@ src="https://img.shields.io/github/release-date/giovannicoppola/paperpAlfred?col
 
 
 1. Download the workflow from Github and double-click to install paperpAlfred
+
 2. Download your Paperpile library 
 	- in Paperpile, cogwheel > Settings > Export > Export to JSON
 <img src='images/pp_json.png' width="500">
+
 3. Set the `PAPLIBRARY` path
-	- Copy the library file path to the clipboard 
-		- In Alfred, search the file, right arrow, select `Copy Path to Clipboard`
-		- In Finder, right-click the file, press option (⌥), the select `Copy [FileName] as Pathname`
-		- Open the 'Configure Workflow and Variables' window in paperpAlfred preferences
+- Copy the library file path to the clipboard
+	- In Alfred, search the file, right arrow, select `Copy Path to Clipboard`
+	- In Finder, right-click the file, press option (⌥), the select `Copy [FileName] as Pathname`
+	- Open the 'Configure Workflow and Variables' window in paperpAlfred preferences
 			<img src='images/alfred_prefs.png' width="500">	
 	- paste the path to library as the `PAPLIBRARY` value
+
 4. _Optional:_ Set `PAPPATH` (Path to Paperpile in Google Drive)
 	- this will allow to open PDFs in the system viewer
 	- go to the Paperpile folder in Google Drive, copy the path as in Step 3
 	- paste the path to Paperpile as the `PAPPATH` value in the 'Configure Workflow and Variables' window in paperpAlfred 
+
 5. _Optional:_ change the max number of results returned (default: 99)
 	- Set the `MAXRESULTS` value in the 'Configure Workflow and Variables' window in paperpAlfred 
+
 6. _Optional:_ Setup hotkeys to launch 
 	- main search 
 	- filter by label 
