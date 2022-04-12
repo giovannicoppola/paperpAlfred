@@ -136,6 +136,7 @@ Once the right item is found, the user has seven options to act on it:
 # Changelog
 
 - 03-17-2021: version 1.0
+- 03-15-2022: version 2.0 (Python3, removed dependencies)
 
 <a name="feedback"></a>
 # Feedback

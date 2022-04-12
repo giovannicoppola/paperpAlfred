@@ -1,29 +1,20 @@
-#!/usr/bin/env python
-# encoding: utf-8
-#
-# Copyright (c) 2014 deanishe@deanishe.net
-#
-# MIT Licence. See http://opensource.org/licenses/MIT
-#
-# Created on 2014-07-03
-#
+#!/usr/bin/env python3
 
-"""Common settings."""
-
-from __future__ import unicode_literals
 import os
-from workflow import Workflow, ICON_WARNING
 
-wf = Workflow()
 
-INDEX_DB = wf.cachefile('index.db')
-DATA_FILE = wf.workflowfile('PAPERPILE_library.tsv')
-LABELS_OUT = wf.workflowfile('LABELS_ALL.json')
-FOLDERS_OUT = wf.workflowfile('FOLDERS_ALL.json')
-TYPES_OUT = wf.workflowfile('TYPES_ALL.tsv')
 MAXRES = os.path.expanduser(os.getenv('MAXRESULTS', ''))
 LIBRARY_FILE = os.path.expanduser(os.getenv('PAPLIBRARY'))
-TIMESTAMP = wf.workflowfile('timestamp.txt')
-    
 
-	
+
+
+WF_BUNDLE = os.getenv('alfred_workflow_bundleid')
+
+WF_FOLDER = os.path.expanduser('~')+"/Library/Caches/com.runningwithcrayons.Alfred/Workflow Data/"+WF_BUNDLE+"/"
+
+INDEX_DB = WF_FOLDER+"index.db"
+TIMESTAMP = WF_FOLDER+'timestamp.txt'
+
+if not os.path.exists(WF_FOLDER):
+    os.makedirs(WF_FOLDER)
+

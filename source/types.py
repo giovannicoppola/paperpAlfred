@@ -1,54 +1,85 @@
-#!/usr/bin/env python
-# encoding: utf-8
-#
-# Copyright (c) 2014 deanishe@deanishe.net
-#
-# MIT Licence. See http://opensource.org/licenses/MIT
-#
-# Created on 2014-07-03
+#!/usr/bin/python3 
+# -*- coding: utf-8 -*-
+# giovanni, March 2021, from @deanishe's template
 # Modified from books, to show paper types for filtering
+# Tuesday, March 15, 2022, 2:52 PM update to Python3
 
-"""Workflow Script Filter to show search results in Alfred."""
-
-from __future__ import print_function, unicode_literals
 
 import sys
-import csv
-import os
-import struct
-from time import time
+import sqlite3
+from config import INDEX_DB
+import json
 
-from workflow import Workflow, ICON_INFO, ICON_WARNING
-from workflow.background import run_in_background, is_running
 
-from config import INDEX_DB, TYPES_OUT
-
-log = None
+myQuery=sys.argv[1]
 
 
 
-def main(wf):
-    # Workflow requires a query
-  #  query = wf.args[0]
+db = sqlite3.connect(INDEX_DB)
+cursor = db.cursor()
+result = {"items": []}
+
+if (not myQuery):
+    cursor.execute("""SELECT * FROM Types ORDER BY CAST (totalType as integer) DESC""")
+    resultsQ = cursor.fetchall()
+
+else:    
+    try:
+        cursor.execute("""SELECT * FROM Types WHERE type MATCH ? ORDER BY CAST (totalType as integer) DESC""",(myQuery+ '*',))
+        resultsQ = cursor.fetchall()
+        
+    except sqlite3.OperationalError as err:
+        # If the query is invalid, show an appropriate warning and exit
+        result= {"items": [{
+        "title": "Error: " + str(err),
+        "subtitle": "Invalid Query",
+        "arg": ";;",
+        "icon": {
+                "path": "icons/Warning.png"
+            }
+        }]}
+        print (json.dumps(result))
+        raise err
+        
     
-    ## Checking that the library file exists
-    if not TYPES_OUT:
-        wf.add_item('Types file missing!', 'cannot locate the Paperpile library file', icon=ICON_WARNING)
-        wf.send_feedback()
-        return
+if (resultsQ):
+    for xx in resultsQ:
 
-    mylabels=[]
-    with open(TYPES_OUT, "r") as fp:
-        reader = csv.reader(fp, delimiter=b'\t')
-        for row in reader:
-            mylabel, myCount = [v.decode('utf-8') for v in row]
+        result["items"].append({
+
+        "title": xx[0] + " (" + xx[1]+")" ,     
+        
+        
+        "valid": True,
+        "icon": {
+            "path": "icons/icon_type.png"
+            },
+        "variables": {
+            "mySource": 'type',
+            "myTypeID": xx[0],
+        }
+            })
+
+    print (json.dumps(result))
+
+
+
+if (myQuery and not resultsQ):
+    result["items"].append({
+    "title": "No matches",
+    "subtitle": "Try a different query",
+    
+    "arg": "",
+    "icon": {
+
+            "path": "icons/Warning.png"
+        }
+    })
+    
+    print (json.dumps(result))
             
-            toShow = mylabel + " ("+myCount+")"
-            wf.add_item(toShow, valid=True, arg=mylabel, icon='icon_type.png')
-        wf.send_feedback()
 
 
-if __name__ == '__main__':
-    wf = Workflow()
-    log = wf.logger
-    sys.exit(wf.run(main))
+    
+
+    

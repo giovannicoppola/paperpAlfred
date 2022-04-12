@@ -1,45 +1,80 @@
-#!/usr/bin/env python
-# encoding: utf-8
-#
-# Copyright (c) 2014 deanishe@deanishe.net
-#
-# MIT Licence. See http://opensource.org/licenses/MIT
-#
-# Created on 2014-07-03
-# Modified from books, to show labels for filtering
+#!/usr/bin/env python3
+# v1.0 giovanni, March 2021, from @deanishe tutorial
+# v2.0 Feb 2022 - Updated for Python3
 
-"""Workflow Script Filter to show search results in Alfred."""
-
-from __future__ import print_function, unicode_literals
 
 import sys
-import csv
-import os
-import struct
-from time import time
-
-from workflow import Workflow, ICON_INFO, ICON_WARNING
-from workflow.background import run_in_background, is_running
-
-from config import LABELS_OUT
-
-log = None
+import sqlite3
+from config import INDEX_DB
+import json
 
 
 
-def main(wf):
-    ## Checking that the library file exists
-    if not LABELS_OUT:
-        wf.add_item('Labels file missing!', 'cannot locate the Paperpile library file', icon=ICON_WARNING)
-        wf.send_feedback()
-        return
+myQuery=sys.argv[1]
 
-    with open(LABELS_OUT, "r") as fp:
-        print(fp.read())
+
+
+db = sqlite3.connect(INDEX_DB)
+cursor = db.cursor()
+result = {"items": []}
+
+if (not myQuery):
+    cursor.execute("""SELECT * FROM Labels ORDER BY CAST (totalLabel as integer) DESC""")
+    resultsQ = cursor.fetchall()
+
+else:    
+    try:
+        cursor.execute("""SELECT * FROM Labels WHERE label MATCH ? ORDER BY CAST (totalLabel as integer) DESC""",(myQuery+ '*',))
+        resultsQ = cursor.fetchall()
         
+    except sqlite3.OperationalError as err:
+        # If the query is invalid, show an appropriate warning and exit
+        result= {"items": [{
+        "title": "Error: " + str(err),
+        "subtitle": "Invalid Query",
+        "arg": ";;",
+        "icon": {
+                "path": "icons/Warning.png"
+            }
+        }]}
+        print (json.dumps(result))
+        raise err
+        
+    
+if (resultsQ):
+    for xx in resultsQ:
+
+        result["items"].append({
+
+        "title": xx[0] + " (" + xx[1]+")" ,     
+        "subtitle": xx[3],
+        
+        "valid": True,
+        "icon": {
+            "path": "icons/icon_label.png"
+            },
+        "variables": {
+            "mySource": 'label',
+            "myLabelID": xx[2],
+        }
+            })
+
+    print (json.dumps(result))
 
 
-if __name__ == '__main__':
-    wf = Workflow()
-    log = wf.logger
-    sys.exit(wf.run(main))
+
+if (myQuery and not resultsQ):
+    result["items"].append({
+    "title": "No matches",
+    "subtitle": "Try a different query",
+    
+    "arg": "",
+    "icon": {
+
+            "path": "icons/Warning.png"
+        }
+    })
+    
+    print (json.dumps(result))
+            
+
