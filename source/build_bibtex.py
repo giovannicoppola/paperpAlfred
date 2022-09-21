@@ -9,7 +9,8 @@
 import bibtexparser # did not work, error with non-quoted entries (eg month)
 import json
 import sqlite3
-BIBTEX_FILE = "/Users/giovanni/Library/CloudStorage/GoogleDrive-giovannicoppola@gmail.com/My Drive/Tsu_ASO-RNAi.bib"
+#BIBTEX_FILE = "/Users/giovanni/Library/CloudStorage/GoogleDrive-giovannicoppola@gmail.com/My Drive/Tsu_ASO-RNAi.bib"
+BIBTEX_FILE = "/Users/giovanni/Library/CloudStorage/GoogleDrive-giovannicoppola@gmail.com/My Drive/Tsu_Dementia.bib"
 INDEX_DB = "indexTEST.db"
 
 
@@ -56,18 +57,35 @@ with open(BIBTEX_FILE) as bibtex_file:
     bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(bibtex_file) # this is for the string in the month
 
 #print(bib_database.entries)
-print (type(bib_database.entries))
+
 myJSONlist = (bib_database.entries)
-print (type(myJSONlist))
-for myyy in myJSONlist:
-    print (type (myyy))
-    print (list (myyy.keys()))
-myJSON = json.dumps(bib_database.entries)
 
-print (type(myJSON))
-JSONtoDB (myJSONlist, "myTTable", INDEX_DB)
+for myEntry in myJSONlist:
+    myAuthors = myEntry['author'].split("and ")
+    print (myAuthors)
+    authorBlock = ''
+    linker = ''
+    for eachAuthor in myAuthors:
+        lastName,firstName = eachAuthor.split(",")
+        firstInitials = "".join(item[0].upper() for item in firstName.split())
+        print (f"last name: {lastName}, initials: {firstInitials}")
+        print (f"{lastName} {firstInitials}")
+        if authorBlock != '':
+            linker = ', '
+        authorBlock = f"{authorBlock}{linker}{lastName} {firstInitials}"
 
-print (myJSON)
+    print (authorBlock)
+    #output = "".join(item[0].upper() for item in input.split())
+    
+    
+    
+    
+#myJSON = json.dumps(bib_database.entries)
+
+
+#JSONtoDB (myJSONlist, "myTTable", INDEX_DB)
+
+
 
 
 
