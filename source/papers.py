@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+
 # Search Paperpile library using Alfred
 # Search engine structure and code from deanishe@deanishe.net  -- THANK YOU!
 # MIT Licence. See http://opensource.org/licenses/MIT
@@ -10,8 +10,6 @@
 # February 2022, updated version for Python3
 
 
-#from __future__ import print_function, unicode_literals
-
 
 import sys
 import os
@@ -21,8 +19,10 @@ import sqlite3
 
 
 from config import INDEX_DB, MAXRES, LIBRARY_FILE, TIMESTAMP
-
 from build_db import *
+
+
+
 
 try: 
     
@@ -31,7 +31,7 @@ try:
 except:   #error if the library file is missing
     result= {"items": [{
     "title": "Library file missing!",
-    "subtitle": "cannot locate the Paperpile library file",
+    "subtitle": f"cannot locate the Paperpile library file: {LIBRARY_FILE}, {MAXRES}",
     "arg": "",
     "icon": {
 

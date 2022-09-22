@@ -8,6 +8,19 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>032960A2-34C1-4272-B9E0-65A6465AE456</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>36DC06AF-E15C-4ABC-BC31-DEF5C3D3638D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1AAAEDC3-C0EE-47D4-83C7-2A5AB352295E</key>
 		<array>
 			<dict>
@@ -903,6 +916,37 @@ python3 papers.py "$1"
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>11</integer>
+				<key>hotmod</key>
+				<integer>1310720</integer>
+				<key>hotstring</key>
+				<string>B</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>032960A2-34C1-4272-B9E0-65A6465AE456</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -916,7 +960,7 @@ python3 papers.py "$1"
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>eeee</string>
+				<string>ppb</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -943,7 +987,7 @@ python3 papers_bibTeX.py "$1"
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Welcome to paperpAlfred 👋</string>
+				<string>Welcome to paperpAlfred  (BibTeX)👋</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -1026,6 +1070,17 @@ Basic usage (`ppp` ↩️)
 7. ⌘⌥⏎ open record in Paperpile</string>
 	<key>uidata</key>
 	<dict>
+		<key>032960A2-34C1-4272-B9E0-65A6465AE456</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Set this Hotkey to launch paperAlfred</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>750</real>
+		</dict>
 		<key>09F993A7-F21C-4541-8C43-6641A0B6E1D8</key>
 		<dict>
 			<key>xpos</key>
@@ -1099,13 +1154,13 @@ Basic usage (`ppp` ↩️)
 		<key>36DC06AF-E15C-4ABC-BC31-DEF5C3D3638D</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>10</integer>
+			<integer>5</integer>
 			<key>note</key>
-			<string>Search your Paperpile library</string>
+			<string>Search your BibTeX Paperpile library</string>
 			<key>xpos</key>
-			<real>515</real>
+			<real>525</real>
 			<key>ypos</key>
-			<real>710</real>
+			<real>750</real>
 		</dict>
 		<key>3B12BCC5-45EE-4E9D-95FB-0B156B0704B3</key>
 		<dict>
@@ -1247,25 +1302,109 @@ Basic usage (`ppp` ↩️)
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
-	<key>variables</key>
-	<dict>
-		<key>KEY_PREFIX</key>
-		<string>@</string>
-		<key>MAXRESULTS</key>
-		<string>99</string>
-		<key>PAPLIBRARY</key>
-		<string>/Users/giovanni/Google Drive/GD_REGN/coding/PaperpAlfred/paperpileExports/Paperpile.txt</string>
-		<key>PAPPATH</key>
-		<string>/Users/giovanni/Google Drive/Paperpile</string>
-	</dict>
-	<key>variablesdontexport</key>
 	<array>
-		<string>PAPPATH</string>
-		<string>PAPLIBRARY</string>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>99</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Maximum number of records returned</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>MAXRESULTS</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>@</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Prefix for citekey</string>
+			<key>label</key>
+			<string>Key Prefix</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>KEY_PREFIX</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>2</integer>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>Location of the JSON Paperpile Library file</string>
+			<key>label</key>
+			<string>Paperpile Library</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>PAPLIBRARY</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>1</integer>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>Path to Google Drive Paperpile folder</string>
+			<key>label</key>
+			<string>Paperpile path</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>PAPPATH</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>2</integer>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>Location of BibTeX Paperpile library</string>
+			<key>label</key>
+			<string>BibTeX Library</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>PAPLIBRARY_BIB</string>
+		</dict>
 	</array>
 	<key>version</key>
-	<string>2.0</string>
+	<string>2.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/giovannicoppola/paperpAlfred</string>
 </dict>

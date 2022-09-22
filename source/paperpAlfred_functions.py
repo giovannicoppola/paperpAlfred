@@ -40,7 +40,7 @@ def build_BibTeX_db (BIBTEX_FILE):
     for myEntry in myJSONlist:
         myAuthors = myEntry['author'].split("and ")
         
-        print (f"number of authors: {len(myAuthors)}")
+        #print (f"number of authors: {len(myAuthors)}")
         authorBlock = ''
         
         authorCount = 0

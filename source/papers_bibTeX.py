@@ -22,7 +22,7 @@ try:
     
 except:   #error if the library file is missing
     result= {"items": [{
-    "title": "Library file missing!",
+    "title": "BibTeX library file missing!",
     "subtitle": "cannot locate the Paperpile BibTeX library file",
     "arg": "",
     "icon": {
@@ -105,7 +105,7 @@ except sqlite3.OperationalError as err:
 
 if (not myQuery):
     introDial= {"items": [{
-        "title": "Welcome to paperpAlfred 👋",
+        "title": "Welcome to paperpAlfred (BibTeX 🤖) 👋",
         "subtitle": "Enter a query or ↩️ for help",
         "valid": True,
         "arg": "ShowHelpWindow",

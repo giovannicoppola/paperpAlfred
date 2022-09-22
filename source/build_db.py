@@ -13,6 +13,11 @@ import re
 import sys
 import collections
 
+def log(s, *args):
+    if args:
+        s = s % args
+    print(s, file=sys.stderr)
+
 
 
 	
