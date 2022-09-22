@@ -12,6 +12,7 @@ import sys
 import os
 import sqlite3
 import time
+import json
 import bibtexparser 
 import re
 #from config import INDEX_DB
@@ -20,99 +21,103 @@ import re
 #W38Q3 – 264 ➡️ 100 – 133 ❇️ 232
 startTime = time.time()
 
-INDEX_DB = "/Users/giovanni/Library/Caches/com.runningwithcrayons.Alfred/Workflow Data/giovanni.paperpAlfred/index.db"
+#INDEX_DB = "/Users/giovanni/Library/Caches/com.runningwithcrayons.Alfred/Workflow Data/giovanni.paperpAlfred/index.db"
+INDEX_DB = "/Users/giovanni.coppola/Library/Caches/com.runningwithcrayons.Alfred/Workflow Data/giovanni.paperpAlfred/index.db"
 
 
 def build_BibTeX_db (BIBTEX_FILE):
     with open(BIBTEX_FILE) as bibtex_file:
-        #bib_database = bibtexparser.load(bibtex_file)
-        bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(bibtex_file) # this is for the string in the month
+        bib_database = bibtexparser.load(bibtex_file)
+        #bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(bibtex_file) # this is for the string in the month
 
     #print(bib_database.entries)
 
     myJSONlist = (bib_database.entries)
-
+    entryCount = 0
     #formatting the author block
+    
     for myEntry in myJSONlist:
-        for myEntry in myJSONlist:
-            if "author" in myEntry:
-                myAuthors = myEntry['author'].split("and ")
+        entryCount += 1
+        print (f"\r{entryCount}",end="")
+        
+        if "author" in myEntry:
+            myAuthors = myEntry['author'].split("and ")
+        
+            #print (f"number of authors: {len(myAuthors)}")
+            authorBlock = ''
             
-                #print (f"number of authors: {len(myAuthors)}")
-                authorBlock = ''
+            authorCount = 0
+            for eachAuthor in myAuthors:
+                authorCount += 1
+                #print (eachAuthor)
+                if ',' in eachAuthor:
+                    lastName,firstName = eachAuthor.split(",",1)
+                    firstInitials = "".join(item[0].upper() for item in firstName.split())
+                    #print (f"last name: {lastName}, initials: {firstInitials}")
+                    #print (f"{lastName} {firstInitials}")
+                    eachAuthor_name = f"{lastName} {firstInitials}"
+                else:
+                    eachAuthor_name = eachAuthor.strip()
                 
-                authorCount = 0
-                for eachAuthor in myAuthors:
-                    authorCount += 1
-                    #print (eachAuthor)
-                    if ',' in eachAuthor:
-                        lastName,firstName = eachAuthor.split(",",1)
-                        firstInitials = "".join(item[0].upper() for item in firstName.split())
-                        #print (f"last name: {lastName}, initials: {firstInitials}")
-                        #print (f"{lastName} {firstInitials}")
-                        eachAuthor_name = f"{lastName} {firstInitials}"
-                    else:
-                        eachAuthor_name = eachAuthor.strip()
-                    
-                    #assigning first and last author
-                    if authorCount == 1:
-                        firstAuthor = eachAuthor_name.split()[0]
-                        myEntry['firstAuthor'] = firstAuthor
-                        linker = ''
-                    else:
-                        linker = ', '
-                    if authorCount == len (myAuthors):
-                        lastAuthor = eachAuthor_name.split()[0]
-                        myEntry['lastAuthor'] = lastAuthor
-                    
-                    authorBlock = f"{authorBlock}{linker}{eachAuthor_name}"
-                    myEntry['authorBlock'] = authorBlock
+                #assigning first and last author
+                if authorCount == 1:
+                    firstAuthor = eachAuthor_name.split()[0]
+                    myEntry['firstAuthor'] = firstAuthor
+                    linker = ''
+                else:
+                    linker = ', '
+                if authorCount == len (myAuthors):
+                    lastAuthor = eachAuthor_name.split()[0]
+                    myEntry['lastAuthor'] = lastAuthor
+                
+                authorBlock = f"{authorBlock}{linker}{eachAuthor_name}"
+                myEntry['authorBlock'] = authorBlock
 
-        #stripping Journal of periods
-        if "journal" in myEntry:
-            myEntry['journal'] = re.sub(r'\.', '', myEntry['journal'])
-        else:
-            myEntry['journal'] = ''
-                  
-        
-        # strip {}
-        if myEntry['title'][0] == "{":
-            myEntry['title'] = myEntry['title'][1:] 
-        if myEntry['title'][-1] == "}":
-            myEntry['title'] = myEntry['title'][:-1] 
-        
-        if "pages" in myEntry:
-            pagesBlock = f":{myEntry['pages']}."
-        else:
-            pagesBlock = ""
+    #stripping Journal of periods
+    if "journal" in myEntry:
+        myEntry['journal'] = re.sub(r'\.', '', myEntry['journal'])
+    else:
+        myEntry['journal'] = ''
+                
+    
+    # strip {}
+    if myEntry['title'][0] == "{":
+        myEntry['title'] = myEntry['title'][1:] 
+    if myEntry['title'][-1] == "}":
+        myEntry['title'] = myEntry['title'][:-1] 
+    
+    if "pages" in myEntry:
+        pagesBlock = f":{myEntry['pages']}."
+    else:
+        pagesBlock = ""
 
-        if "pmid" in myEntry:
-            pmidBlock = f" PMID: {myEntry['pmid']}."
-        else:
-            pmidBlock = ""
-            myEntry['pmid'] = ''
+    if "pmid" in myEntry:
+        pmidBlock = f" PMID: {myEntry['pmid']}."
+    else:
+        pmidBlock = ""
+        myEntry['pmid'] = ''
 
-        if "volume" not in myEntry:
-            myEntry['volume'] = "-"
+    if "volume" not in myEntry:
+        myEntry['volume'] = "-"
 
-        if "annot" not in myEntry:
-            myEntry['annot'] = ""
+    if "annot" not in myEntry:
+        myEntry['annot'] = ""
 
-        shortRef = f"{firstAuthor}-{lastAuthor}, {myEntry['journal']} {myEntry['year']} {myEntry['pmid']}"
-        myEntry['shortRef'] = shortRef
-        #print (shortRef)
+    shortRef = f"{firstAuthor}-{lastAuthor}, {myEntry['journal']} {myEntry['year']} {myEntry['pmid']}"
+    myEntry['shortRef'] = shortRef
+    #print (shortRef)
 
-        fullRef = f"{authorBlock}. {myEntry['title']}. {myEntry['journal']} {myEntry['year']};{myEntry['volume']}{pagesBlock}{pmidBlock}"
-        myEntry['fullRef'] = fullRef
-        #print (fullRef)
-        # renaming problematic names
-        if "ID" in myEntry:
-            myEntry['myID'] = myEntry['ID']
-            del myEntry['ID']
+    fullRef = f"{authorBlock}. {myEntry['title']}. {myEntry['journal']} {myEntry['year']};{myEntry['volume']}{pagesBlock}{pmidBlock}"
+    myEntry['fullRef'] = fullRef
+    #print (fullRef)
+    # renaming problematic names
+    if "ID" in myEntry:
+        myEntry['myID'] = myEntry['ID']
+        del myEntry['ID']
 
-        if "file" in myEntry:
-            myEntry['myFile'] = myEntry['file']
-            del myEntry['file']
+    if "file" in myEntry:
+        myEntry['myFile'] = myEntry['file']
+        del myEntry['file']
             
             
         
@@ -126,6 +131,7 @@ def build_BibTeX_db (BIBTEX_FILE):
     #myJSON = json.dumps(bib_database.entries)
 
 
+    print ("")
     JSONtoDB (myJSONlist, "BibTeX_db", INDEX_DB)
 
 
@@ -137,7 +143,13 @@ def log(s, *args):
 
 
     
-            
+    
+
+def readOnly (BIBTEX_FILE):
+    with open(BIBTEX_FILE) as bibtex_file:
+        bib_database = bibtexparser.load(bibtex_file)
+        #bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(bibtex_file) # this is for the string in the month
+        
 
      
     
@@ -180,6 +192,15 @@ def JSONtoDB (myJSON,myTable, mydatabase):
 
 
 
+#build_BibTeX_db ("/Users/giovanni.coppola/Downloads/paperpile.bib")
+readOnly ("/Users/giovanni.coppola/Downloads/paperpile.bib")
+
+# with open("/Users/giovanni.coppola/Downloads/Paperpile - Sep 22 JSON Export.txt", "r") as read_file:
+#     json_data = json.load(read_file)
 
 
-build_BibTeX_db ("/Users/giovanni/Library/CloudStorage/GoogleDrive-giovannicoppola@gmail.com/My Drive/paperpile.bib")
+endTime = time.time()
+
+timeElapsed = endTime-startTime
+print (f"time elapsed: {timeElapsed} seconds")
+#build_BibTeX_db ("/Users/giovanni/Library/CloudStorage/GoogleDrive-giovannicoppola@gmail.com/My Drive/paperpile.bib")
