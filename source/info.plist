@@ -841,6 +841,8 @@ python3 papers.py "$1"
 				</array>
 				<key>elselabel</key>
 				<string>else</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -897,6 +899,62 @@ python3 papers.py "$1"
 			<string>30EEB713-8B4D-41AF-A310-C8793A498639</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>eeee</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>❗Please wait while I rebuild the database❗</string>
+				<key>script</key>
+				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
+python3 papers_bibTeX.py "$1"
+
+
+
+
+
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Welcome to paperpAlfred 👋</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>36DC06AF-E15C-4ABC-BC31-DEF5C3D3638D</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -971,39 +1029,39 @@ Basic usage (`ppp` ↩️)
 		<key>09F993A7-F21C-4541-8C43-6641A0B6E1D8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<real>1000</real>
 			<key>ypos</key>
-			<integer>365</integer>
+			<real>365</real>
 		</dict>
 		<key>0F60EE65-A185-4BBF-B450-70AF97DF20D0</key>
 		<dict>
 			<key>note</key>
 			<string>Copy Fist, Last, Journal, Year, and PMID to clipboard</string>
 			<key>xpos</key>
-			<integer>1125</integer>
+			<real>1125</real>
 			<key>ypos</key>
-			<integer>210</integer>
+			<real>210</real>
 		</dict>
 		<key>1AAAEDC3-C0EE-47D4-83C7-2A5AB352295E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1290</integer>
+			<real>1290</real>
 			<key>ypos</key>
-			<integer>390</integer>
+			<real>390</real>
 		</dict>
 		<key>1D9857A2-7E4B-4E14-9556-B38C14893DD9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1480</integer>
+			<real>1480</real>
 			<key>ypos</key>
-			<integer>380</integer>
+			<real>380</real>
 		</dict>
 		<key>21B88AAB-784B-4782-B4D6-607BDB0F7C25</key>
 		<dict>
 			<key>xpos</key>
-			<integer>790</integer>
+			<real>790</real>
 			<key>ypos</key>
-			<integer>155</integer>
+			<real>155</real>
 		</dict>
 		<key>28606112-A338-475C-9D0A-17F14E5D6E40</key>
 		<dict>
@@ -1012,9 +1070,9 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Set this Hotkey to launch paperAlfred</string>
 			<key>xpos</key>
-			<integer>20</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>525</integer>
+			<real>525</real>
 		</dict>
 		<key>30EEB713-8B4D-41AF-A310-C8793A498639</key>
 		<dict>
@@ -1023,9 +1081,9 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Open PDF in Google Drive</string>
 			<key>xpos</key>
-			<integer>950</integer>
+			<real>950</real>
 			<key>ypos</key>
-			<integer>625</integer>
+			<real>625</real>
 		</dict>
 		<key>33BF8A0E-B7AA-495E-B89F-1F8239DAECBE</key>
 		<dict>
@@ -1034,18 +1092,29 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Search by folder</string>
 			<key>xpos</key>
-			<integer>235</integer>
+			<real>235</real>
 			<key>ypos</key>
-			<integer>200</integer>
+			<real>200</real>
+		</dict>
+		<key>36DC06AF-E15C-4ABC-BC31-DEF5C3D3638D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
+			<string>Search your Paperpile library</string>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>710</real>
 		</dict>
 		<key>3B12BCC5-45EE-4E9D-95FB-0B156B0704B3</key>
 		<dict>
 			<key>note</key>
 			<string>Show and copy to clipboard complete reference</string>
 			<key>xpos</key>
-			<integer>905</integer>
+			<real>905</real>
 			<key>ypos</key>
-			<integer>10</integer>
+			<real>15</real>
 		</dict>
 		<key>3FDF7937-4C98-4A75-B7C6-AF4AF5FBB5D7</key>
 		<dict>
@@ -1054,9 +1123,9 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Open Folder in Paperpile</string>
 			<key>xpos</key>
-			<integer>555</integer>
+			<real>555</real>
 			<key>ypos</key>
-			<integer>200</integer>
+			<real>200</real>
 		</dict>
 		<key>439299E4-26DE-4954-9EE4-6AB9A055C4DC</key>
 		<dict>
@@ -1065,9 +1134,9 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Open Label in Paperpile</string>
 			<key>xpos</key>
-			<integer>555</integer>
+			<real>555</real>
 			<key>ypos</key>
-			<integer>40</integer>
+			<real>40</real>
 		</dict>
 		<key>4797204D-1BEC-49C9-8577-07F086902572</key>
 		<dict>
@@ -1076,9 +1145,9 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Set this Hotkey to filter by label first</string>
 			<key>xpos</key>
-			<integer>20</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>40</integer>
+			<real>40</real>
 		</dict>
 		<key>6DF20719-C29E-41E0-AEA3-E92AD68EA188</key>
 		<dict>
@@ -1087,9 +1156,9 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Search by label</string>
 			<key>xpos</key>
-			<integer>235</integer>
+			<real>235</real>
 			<key>ypos</key>
-			<integer>40</integer>
+			<real>40</real>
 		</dict>
 		<key>837B6FCB-ACFA-46BE-AEC2-10135A81A784</key>
 		<dict>
@@ -1098,23 +1167,23 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Search by type</string>
 			<key>xpos</key>
-			<integer>235</integer>
+			<real>235</real>
 			<key>ypos</key>
-			<integer>390</integer>
+			<real>390</real>
 		</dict>
 		<key>8D033AF8-08E7-4097-B0BF-5BB509FAF1AB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>905</integer>
+			<real>905</real>
 			<key>ypos</key>
-			<integer>165</integer>
+			<real>165</real>
 		</dict>
 		<key>C15FD31B-73B9-4D65-9FC9-B88846234B1C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1225</integer>
+			<real>1225</real>
 			<key>ypos</key>
-			<integer>480</integer>
+			<real>480</real>
 		</dict>
 		<key>C81A90A7-A0A8-4A02-8BC5-9315BC9BB108</key>
 		<dict>
@@ -1123,9 +1192,9 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Open PDF with system viewer</string>
 			<key>xpos</key>
-			<integer>1225</integer>
+			<real>1225</real>
 			<key>ypos</key>
-			<integer>600</integer>
+			<real>600</real>
 		</dict>
 		<key>D942F3A6-D97B-4FA5-80ED-18B88282CF61</key>
 		<dict>
@@ -1134,25 +1203,25 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Open Paperpile Record</string>
 			<key>xpos</key>
-			<integer>1020</integer>
+			<real>1020</real>
 			<key>ypos</key>
-			<integer>805</integer>
+			<real>805</real>
 		</dict>
 		<key>D94E41FF-2E5C-420B-919A-5A2990C3F4A6</key>
 		<dict>
 			<key>note</key>
 			<string>Show (and copy to clipboard) abstract</string>
 			<key>xpos</key>
-			<integer>1485</integer>
+			<real>1485</real>
 			<key>ypos</key>
-			<integer>200</integer>
+			<real>200</real>
 		</dict>
 		<key>DD1DC957-AD49-4CC1-A425-2D6FF0F6F2D5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1095</integer>
+			<real>1095</real>
 			<key>ypos</key>
-			<integer>545</integer>
+			<real>545</real>
 		</dict>
 		<key>E2E84778-9472-48A7-851A-87F07879DA5C</key>
 		<dict>
@@ -1161,9 +1230,9 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Search your Paperpile library</string>
 			<key>xpos</key>
-			<integer>525</integer>
+			<real>525</real>
 			<key>ypos</key>
-			<integer>530</integer>
+			<real>530</real>
 		</dict>
 		<key>E31F5435-FCA6-40FB-AC97-768A01A29B7B</key>
 		<dict>
@@ -1172,11 +1241,13 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Set this Hotkey to filter by folder first</string>
 			<key>xpos</key>
-			<integer>20</integer>
+			<real>30</real>
 			<key>ypos</key>
-			<integer>195</integer>
+			<real>195</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variables</key>
 	<dict>
 		<key>KEY_PREFIX</key>
