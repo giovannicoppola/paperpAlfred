@@ -14,14 +14,13 @@ import sqlite3
 import time
 import bibtexparser 
 import re
-from config import INDEX_DB
+#from config import INDEX_DB
 
 #Partly cloudy ⛅️  🌡️+73°F (feels +77°F, 55%) 🌬️↗4mph 🌘 Wed Sep 21 16:59:51 2022
 #W38Q3 – 264 ➡️ 100 – 133 ❇️ 232
 startTime = time.time()
 
-
-
+INDEX_DB = "/Users/giovanni/Library/Caches/com.runningwithcrayons.Alfred/Workflow Data/giovanni.paperpAlfred/index.db"
 
 
 def build_BibTeX_db (BIBTEX_FILE):
@@ -35,45 +34,46 @@ def build_BibTeX_db (BIBTEX_FILE):
 
     #formatting the author block
     for myEntry in myJSONlist:
-        if "author" in myEntry:
-            myAuthors = myEntry['author'].split("and ")
-        
-            #print (f"number of authors: {len(myAuthors)}")
-            authorBlock = ''
+        for myEntry in myJSONlist:
+            if "author" in myEntry:
+                myAuthors = myEntry['author'].split("and ")
             
-            authorCount = 0
-            for eachAuthor in myAuthors:
-                authorCount += 1
-                #print (eachAuthor)
-                if ',' in eachAuthor:
-                    lastName,firstName = eachAuthor.split(",",1)
-                    firstInitials = "".join(item[0].upper() for item in firstName.split())
-                    #print (f"last name: {lastName}, initials: {firstInitials}")
-                    #print (f"{lastName} {firstInitials}")
-                    eachAuthor_name = f"{lastName} {firstInitials}"
-                else:
-                    eachAuthor_name = eachAuthor.strip()
+                #print (f"number of authors: {len(myAuthors)}")
+                authorBlock = ''
                 
-                #assigning first and last author
-                if authorCount == 1:
-                    firstAuthor = eachAuthor_name.split()[0]
-                    myEntry['firstAuthor'] = firstAuthor
-                    linker = ''
-                else:
-                    linker = ', '
-                if authorCount == len (myAuthors):
-                    lastAuthor = eachAuthor_name.split()[0]
-                    myEntry['lastAuthor'] = lastAuthor
-                
-                authorBlock = f"{authorBlock}{linker}{eachAuthor_name}"
-                myEntry['authorBlock'] = authorBlock
+                authorCount = 0
+                for eachAuthor in myAuthors:
+                    authorCount += 1
+                    #print (eachAuthor)
+                    if ',' in eachAuthor:
+                        lastName,firstName = eachAuthor.split(",",1)
+                        firstInitials = "".join(item[0].upper() for item in firstName.split())
+                        #print (f"last name: {lastName}, initials: {firstInitials}")
+                        #print (f"{lastName} {firstInitials}")
+                        eachAuthor_name = f"{lastName} {firstInitials}"
+                    else:
+                        eachAuthor_name = eachAuthor.strip()
+                    
+                    #assigning first and last author
+                    if authorCount == 1:
+                        firstAuthor = eachAuthor_name.split()[0]
+                        myEntry['firstAuthor'] = firstAuthor
+                        linker = ''
+                    else:
+                        linker = ', '
+                    if authorCount == len (myAuthors):
+                        lastAuthor = eachAuthor_name.split()[0]
+                        myEntry['lastAuthor'] = lastAuthor
+                    
+                    authorBlock = f"{authorBlock}{linker}{eachAuthor_name}"
+                    myEntry['authorBlock'] = authorBlock
 
-            
         #stripping Journal of periods
         if "journal" in myEntry:
             myEntry['journal'] = re.sub(r'\.', '', myEntry['journal'])
         else:
-            myEntry['journal'] = ''    
+            myEntry['journal'] = ''
+                  
         
         # strip {}
         if myEntry['title'][0] == "{":
@@ -129,7 +129,6 @@ def build_BibTeX_db (BIBTEX_FILE):
     JSONtoDB (myJSONlist, "BibTeX_db", INDEX_DB)
 
 
-
 def log(s, *args):
     if args:
         s = s % args
@@ -139,7 +138,7 @@ def log(s, *args):
 
     
             
-        
+
      
     
 
@@ -183,3 +182,4 @@ def JSONtoDB (myJSON,myTable, mydatabase):
 
 
 
+build_BibTeX_db ("/Users/giovanni/Library/CloudStorage/GoogleDrive-giovannicoppola@gmail.com/My Drive/paperpile.bib")
