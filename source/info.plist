@@ -1351,6 +1351,8 @@ Enter the corresponding string followed by your search (e.g.: year:2022):
 			<string>typekeyword</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>2.1</string>
 	<key>webaddress</key>
