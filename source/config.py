@@ -6,7 +6,7 @@ import os
 MAXRES = os.path.expanduser(os.getenv('MAXRESULTS', ''))
 LIBRARY_FILE = os.path.expanduser(os.getenv('PAPLIBRARY'))
 
-BIBTEX_FILE = os.path.expanduser(os.getenv('PAPLIBRARY_BIB'))
+#BIBTEX_FILE = os.path.expanduser(os.getenv('PAPLIBRARY_BIB'))
 
 WF_BUNDLE = os.getenv('alfred_workflow_bundleid')
 WF_FOLDER = os.path.expanduser('~')+"/Library/Caches/com.runningwithcrayons.Alfred/Workflow Data/"+WF_BUNDLE+"/"
