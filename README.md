@@ -87,6 +87,7 @@ src="https://img.shields.io/github/downloads/giovannicoppola/paperpAlfred/total?
 	- `type` publication type
 
 <h1 id="output">Output</h1>
+
 - Alfred returns the top 99 results, numbered. The max number of results returned can be set in Preferences (see [Setting up](#setting-up))
 - results are sorted by year (most recent first). Adding `--a` to the query will invert this order. 
 - The main text will return the title.
@@ -121,6 +122,7 @@ Once the right item is found, the user has seven options to act on it:
 - Alain T, StackExchange user:5237560 (https://nebularena.wordpress.com) for help with a Python script
 
 <h1 id="changelog">Changelog</h1>
+
 - 12-04-2022: version 2.1 (Alfred 5)
 - 03-15-2022: version 2.0 (Python3, removed dependencies)
 - 03-17-2021: version 1.0
