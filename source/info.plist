@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>giovanni.paperpAlfred</string>
 	<key>category</key>
-	<string>Productivity</string>
+	<string>myWorkflows</string>
 	<key>connections</key>
 	<dict>
 		<key>1AAAEDC3-C0EE-47D4-83C7-2A5AB352295E</key>
@@ -1354,7 +1354,7 @@ Enter the corresponding string followed by your search (e.g.: year:2022):
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2.1</string>
+	<string>2.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/giovannicoppola/paperpAlfred</string>
 </dict>

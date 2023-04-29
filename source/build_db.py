@@ -124,6 +124,7 @@ def createLibrary (myLibrary):
 
     #combining the authors in authorBlock
     for item in mySubset:
+        #log (item['_id'])
         #declaration block, and defaults
         authorBlock =''
         labelBlock =''
@@ -148,6 +149,7 @@ def createLibrary (myLibrary):
         item.setdefault('pdfFlag', ' ')
         item.setdefault('type', '')
         
+        
 
         # stripping dots from journal names
         item['journal'] = re.sub(r'\.', '', item['journal'])
@@ -169,8 +171,10 @@ def createLibrary (myLibrary):
             
             if ('last' in item['author'][-1]):
                 lastAuthorLN = item['author'][-1]['last']
-            if ('year' in item['published']):
+            if ('year' in item['published'] and item['published']['year'] is not None):
                 pubYear = item['published']['year']
+            else:
+                pubYear = "-"
         
         item.update({'first':firstAuthorLN}) 		
         item.update({'last':lastAuthorLN}) 		
@@ -251,7 +255,9 @@ def createLibrary (myLibrary):
 
 
     # compiling the subtitle	
-        subtitle = firstAuthorLN +"-"+ lastAuthorLN + ", " + myJournal + " " + pubYear
+        #log (f"{firstAuthorLN}-{lastAuthorLN}, {myJournal} {pubYear}")
+        subtitle = f"{firstAuthorLN}-{lastAuthorLN}, {myJournal} {pubYear}"
+        
         item.update({'subtitle':subtitle}) 	
 
 
