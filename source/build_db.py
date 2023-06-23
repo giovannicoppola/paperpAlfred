@@ -7,6 +7,8 @@
 # previously created on Sunday, February 28, 2021
 # March 2022 updated to Python3, eliminated dependencies
 
+#Note it currently fails if none of the references are in folders. will need to fix
+
 import json
 import sqlite3
 import re
@@ -322,6 +324,7 @@ def createLibrary (myLibrary):
                     })
             
     # creating the table in the sqlite database
+    
     JSONtoDB (myJSON=myFinalCount,myTable='Labels', mydatabase=INDEX_DB)
 
 
