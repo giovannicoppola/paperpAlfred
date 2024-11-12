@@ -7,6 +7,8 @@
 # previously created on Sunday, February 28, 2021
 # March 2022 updated to Python3, eliminated dependencies
 
+#Note it currently fails if none of the references are in folders. will need to fix
+
 import json
 import sqlite3
 import re
@@ -124,6 +126,7 @@ def createLibrary (myLibrary):
 
     #combining the authors in authorBlock
     for item in mySubset:
+        #log (item['_id'])
         #declaration block, and defaults
         authorBlock =''
         labelBlock =''
@@ -148,6 +151,7 @@ def createLibrary (myLibrary):
         item.setdefault('pdfFlag', ' ')
         item.setdefault('type', '')
         
+        
 
         # stripping dots from journal names
         item['journal'] = re.sub(r'\.', '', item['journal'])
@@ -169,8 +173,10 @@ def createLibrary (myLibrary):
             
             if ('last' in item['author'][-1]):
                 lastAuthorLN = item['author'][-1]['last']
-            if ('year' in item['published']):
+            if ('year' in item['published'] and item['published']['year'] is not None):
                 pubYear = item['published']['year']
+            else:
+                pubYear = "-"
         
         item.update({'first':firstAuthorLN}) 		
         item.update({'last':lastAuthorLN}) 		
@@ -252,7 +258,9 @@ def createLibrary (myLibrary):
 
 
     # compiling the subtitle	
-        subtitle = firstAuthorLN +"-"+ lastAuthorLN + ", " + myJournal + " " + pubYear
+        #log (f"{firstAuthorLN}-{lastAuthorLN}, {myJournal} {pubYear}")
+        subtitle = f"{firstAuthorLN}-{lastAuthorLN}, {myJournal} {pubYear}"
+        
         item.update({'subtitle':subtitle}) 	
 
 
@@ -317,6 +325,7 @@ def createLibrary (myLibrary):
                     })
             
     # creating the table in the sqlite database
+    
     JSONtoDB (myJSON=myFinalCount,myTable='Labels', mydatabase=INDEX_DB)
 
 

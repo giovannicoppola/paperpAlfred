@@ -10,14 +10,6 @@ Search your [Paperpile](https://paperpile.com/) library with [Alfred](https://ww
 src="https://img.shields.io/github/downloads/giovannicoppola/paperpAlfred/total?color=purple&label=Downloads"><br/>
 </a>
 
-
-<a href="https://github.com/giovannicoppola/paperpAlfred/releases/latest/">
-<img alt="Release date"
-src="https://img.shields.io/github/release-date/giovannicoppola/paperpAlfred?color=green"><br/>
-</a>
-
-
-
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
 
 - [Setting up](#setting-up)
@@ -31,9 +23,7 @@ src="https://img.shields.io/github/release-date/giovannicoppola/paperpAlfred?col
 <!-- /MarkdownTOC -->
 
 
-<a name="setting-up"></a>
-# Setting up paperpAlfred
-
+<h1 id="setting-up">Setting up paperpAlfred</h1>
 
 1. Download the workflow from Github and double-click to install paperpAlfred
 
@@ -43,29 +33,26 @@ src="https://img.shields.io/github/release-date/giovannicoppola/paperpAlfred?col
 
 3. Set the `PAPLIBRARY` path
 - Copy the library file path to the clipboard
-	- In Alfred, search the file, right arrow, select `Copy Path to Clipboard`
+
 	- In Finder, right-click the file, press option (⌥), the select `Copy [FileName] as Pathname`
-	- Open the 'Configure Workflow and Variables' window in paperpAlfred preferences
-			<img src='images/alfred_prefs.png' width="500">	
-	- paste the path to library as the `PAPLIBRARY` value
+	- Open the 'Configure Workflow' window in paperpAlfred preferences
+	- set path to library as the `Paperpile Library` value
 
-4. _Optional:_ Set `PAPPATH` (Path to Paperpile in Google Drive)
+4. _Optional:_ Set `Paperpile Path` (Path to Paperpile in Google Drive)
 	- this will allow to open PDFs in the system viewer
-	- go to the Paperpile folder in Google Drive, copy the path as in Step 3
-	- paste the path to Paperpile as the `PAPPATH` value in the 'Configure Workflow and Variables' window in paperpAlfred 
-
+	
 5. _Optional:_ change the max number of results returned (default: 99)
-	- Set the `MAXRESULTS` value in the 'Configure Workflow and Variables' window in paperpAlfred 
+	- Set the `MAXRESULTS` value in the 'Configure Workflow' window in paperpAlfred 
+	- Set the `Key Prefix` (citekey prefix) in the 'Configure Workflow' window in paperpAlfred 
 
 6. _Optional:_ Setup hotkeys to launch 
 	- main search 
 	- filter by label 
-	- filter by folder 
+	- filter by folder
+	- filter by type
 
 
-<a name="basic-usage"></a>
-# Basic Usage 
-
+<h1 id="basic-usage">Basic Usage</h1>
 
 ## Simple search
 - launch paperpAlfred by typing `ppp` or using an optional hotkey
@@ -86,7 +73,7 @@ src="https://img.shields.io/github/release-date/giovannicoppola/paperpAlfred?col
 	- `shift-return (⇧⏎)` will open the folder in Paperpile
        
 ## Advanced search
-- enter `field:`, where `field` is any of the fields below. Example: `year:2020`
+- enter `field:`, where `field` is any of the fields below. Example: `year:2022`
 	- `title`
 	- `abstract`
 	- `citekey`
@@ -99,8 +86,8 @@ src="https://img.shields.io/github/release-date/giovannicoppola/paperpAlfred?col
 	- `year`
 	- `type` publication type
 
-<a name="output"></a>
-# Output
+<h1 id="output">Output</h1>
+
 - Alfred returns the top 99 results, numbered. The max number of results returned can be set in Preferences (see [Setting up](#setting-up))
 - results are sorted by year (most recent first). Adding `--a` to the query will invert this order. 
 - The main text will return the title.
@@ -120,9 +107,7 @@ Once the right item is found, the user has seven options to act on it:
 6. `command-shift-return (⌘⇧⏎)` will open the PDF in Google drive
 7. `command-option-return (⌘⌥⏎)` will open the record in Paperpile
 
-<a name="known-issues"></a>
-# Known issues 
-
+<h1 id="known-issues">Known Issues</h1>
 
 - incomplete records will not be imported
 - special characters (e.g. ü) will need to be entered in order to match the record
@@ -130,21 +115,19 @@ Once the right item is found, the user has seven options to act on it:
 - Currently tested mainly with research papers, reviews etc. There might be untested use cases for other types of publications. 
 - label and folder search in the main window (i.e. using `label:` and `folder:`) will not be exact matches (e.g. AD will also return GWAS_AD). Match will be exact when starting from folder and label window.
 
-<a name="acknowledgments"></a>
-# Acknowledgments
+<h1 id="acknowledgments">Acknowledgments</h1>
 
 - [Dean Jackson](https://github.com/deanishe) for their incredible help on the Alfred mailing list and for creating [alfred-index-demo](https://github.com/deanishe/alfred-index-demo), and other scripts used as templates for this workflow. 
 - Jirka from Paperpile for support on the path-to-file issue
 - Alain T, StackExchange user:5237560 (https://nebularena.wordpress.com) for help with a Python script
 
-<a name="changelog"></a>
-# Changelog
+<h1 id="changelog">Changelog</h1>
 
-- 03-17-2021: version 1.0
+- 12-04-2022: version 2.1 (Alfred 5)
 - 03-15-2022: version 2.0 (Python3, removed dependencies)
+- 03-17-2021: version 1.0
 
-<a name="feedback"></a>
-# Feedback
 
+<h1 id="feedback">Feedback</h1>
 Feedback welcome! If you notice a bug, or have ideas for new features, please feel free to get in touch either here, or on the [Paperpile](https://forum.paperpile.com)/[Alfred](https://www.alfredforum.com) forums. 
 
