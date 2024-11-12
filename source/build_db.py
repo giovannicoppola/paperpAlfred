@@ -213,12 +213,13 @@ def createLibrary (myLibrary):
 
 
     # flattening folders
-        for myFolder in item['foldersNamed']:
-            if myFolder == item['foldersNamed'][-1]:
-                folderBlock += myFolder
-            else:
-                folderBlock += myFolder +','	
-        item.update({'folder':folderBlock}) 		
+        if 'foldersNamed' in item:
+            for myFolder in item['foldersNamed']:
+                if myFolder == item['foldersNamed'][-1]:
+                    folderBlock += myFolder
+                else:
+                    folderBlock += myFolder +','	
+            item.update({'folder':folderBlock}) 		
 
     # flattening folderIDs
         for myFolder in item['folders']:
