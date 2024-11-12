@@ -189,12 +189,13 @@ def createLibrary (myLibrary):
 
 
         # flattening labels
-        for myLabel in item['labelsNamed']:
-            if myLabel == item['labelsNamed'][-1]:
-                labelBlock += myLabel
-            else:
-                labelBlock += myLabel+','	
-        item.update({'label':labelBlock}) 		
+        if 'labelsNamed' in item:
+            for myLabel in item['labelsNamed']:
+                if myLabel == item['labelsNamed'][-1]:
+                    labelBlock += myLabel
+                else:
+                    labelBlock += myLabel+','	
+            item.update({'label':labelBlock}) 		
 
         # flattening labelIDs
         for myLabel in item['labels']:

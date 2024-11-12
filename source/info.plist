@@ -267,7 +267,7 @@
 	<key>createdby</key>
 	<string>@giovannicoppoIa</string>
 	<key>description</key>
-	<string>Search your Paperpile library with Alfred, Python3 version</string>
+	<string>Search your Paperpile library with Alfred</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -353,7 +353,7 @@
 				<string></string>
 				<key>script</key>
 				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
-python3 labels.py "$1"
+/usr/bin/python3 labels.py "$1"
 
 
 </string>
@@ -497,7 +497,7 @@ python3 labels.py "$1"
 				<string></string>
 				<key>script</key>
 				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
-python3 folders.py "$1"
+/usr/bin/python3 folders.py "$1"
 
 </string>
 				<key>scriptargtype</key>
@@ -666,7 +666,7 @@ python3 folders.py "$1"
 				<string></string>
 				<key>script</key>
 				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
-python3 myTypes.py "$1"</string>
+/usr/bin/python3 myTypes.py "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -806,7 +806,7 @@ python3 myTypes.py "$1"</string>
 				<string>❗Please wait while I rebuild the database❗</string>
 				<key>script</key>
 				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
-python3 papers.py "$1"
+/usr/bin/python3 papers.py "$1"
 
 
 
@@ -973,7 +973,7 @@ python3 papers.py "$1"
 				<string>❗Please wait while I rebuild the database❗</string>
 				<key>script</key>
 				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
-python3 papers_bibTeX.py "$1"
+/usr/bin/python3 papers_bibTeX.py "$1"
 
 
 
@@ -1352,6 +1352,8 @@ Basic usage (`ppp` ↩️)
 				<string></string>
 				<key>filtermode</key>
 				<integer>2</integer>
+				<key>placeholder</key>
+				<string></string>
 				<key>required</key>
 				<false/>
 			</dict>
@@ -1371,6 +1373,8 @@ Basic usage (`ppp` ↩️)
 				<string></string>
 				<key>filtermode</key>
 				<integer>1</integer>
+				<key>placeholder</key>
+				<string></string>
 				<key>required</key>
 				<false/>
 			</dict>
@@ -1383,28 +1387,11 @@ Basic usage (`ppp` ↩️)
 			<key>variable</key>
 			<string>PAPPATH</string>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<string></string>
-				<key>filtermode</key>
-				<integer>2</integer>
-				<key>required</key>
-				<false/>
-			</dict>
-			<key>description</key>
-			<string>Location of BibTeX Paperpile library</string>
-			<key>label</key>
-			<string>BibTeX Library</string>
-			<key>type</key>
-			<string>filepicker</string>
-			<key>variable</key>
-			<string>PAPLIBRARY_BIB</string>
-		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>2.1</string>
+	<string>2.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/giovannicoppola/paperpAlfred</string>
 </dict>
