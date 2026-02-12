@@ -150,8 +150,12 @@ def createLibrary (myLibrary):
         item.setdefault('_id', '')
         item.setdefault('pdfFlag', ' ')
         item.setdefault('type', '')
-        
-        
+        item.setdefault('labels', [])
+        item.setdefault('folders', [])
+        item.setdefault('folder', '')
+        item.setdefault('folderID', '')
+
+
 
         # stripping dots from journal names
         item['journal'] = re.sub(r'\.', '', item['journal'])
@@ -201,14 +205,15 @@ def createLibrary (myLibrary):
                     labelBlock += myLabel
                 else:
                     labelBlock += myLabel+','	
-            item.update({'label':labelBlock}) 		
+            item.update({'label':labelBlock})
 
         # flattening labelIDs
-        for myLabel in item['labels']:
-            if myLabel == item['labels'][-1]:
-                labelIDBlock += myLabel
-            else:
-                labelIDBlock += myLabel+','	
+        if 'labels' in item and item['labels']:
+            for myLabel in item['labels']:
+                if myLabel == item['labels'][-1]:
+                    labelIDBlock += myLabel
+                else:
+                    labelIDBlock += myLabel+','
         item.update({'labelID':labelIDBlock}) 		
 
 
@@ -219,18 +224,19 @@ def createLibrary (myLibrary):
                     folderBlock += myFolder
                 else:
                     folderBlock += myFolder +','	
-            item.update({'folder':folderBlock}) 		
+            item.update({'folder':folderBlock})
 
     # flattening folderIDs
-        for myFolder in item['folders']:
-            if myFolder == item['folders'][-1]:
-                folderIDBlock += myFolder
-            else:
-                folderIDBlock += myFolder +','	
-        item.update({'folderID':folderIDBlock}) 	
+        if 'folders' in item and item['folders']:
+            for myFolder in item['folders']:
+                if myFolder == item['folders'][-1]:
+                    folderIDBlock += myFolder
+                else:
+                    folderIDBlock += myFolder +','
+        item.update({'folderID':folderIDBlock})
 
         # PDF name or search string
-        if (len(item['attachments'])) >0:
+        if 'attachments' in item and (len(item['attachments'])) >0:
             
             # checking source_filename
             if item['attachments'][0]['source_filename'] == "[article_pdf].pdf":

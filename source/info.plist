@@ -218,7 +218,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>30EEB713-8B4D-41AF-A310-C8793A498639</string>
+				<string>E672F63F-3777-4A66-939B-FD71F3E35019</string>
 				<key>modifiers</key>
 				<integer>1179648</integer>
 				<key>modifiersubtext</key>
@@ -242,6 +242,29 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>33BF8A0E-B7AA-495E-B89F-1F8239DAECBE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E672F63F-3777-4A66-939B-FD71F3E35019</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>30EEB713-8B4D-41AF-A310-C8793A498639</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E4242C82-3B1A-49E3-A259-5C2325D8091C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -901,6 +924,14 @@
 			<integer>2</integer>
 		</dict>
 		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>E672F63F-3777-4A66-939B-FD71F3E35019</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>config</key>
 			<dict>
 				<key>concurrently</key>
@@ -922,6 +953,25 @@
 			<string>D942F3A6-D97B-4FA5-80ED-18B88282CF61</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>https://docs.google.com/file/d/{var:gdrive_id}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E4242C82-3B1A-49E3-A259-5C2325D8091C</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -1025,9 +1075,9 @@ Basic usage (`ppp` ↩️)
 			<key>note</key>
 			<string>Open PDF in Google Drive</string>
 			<key>xpos</key>
-			<real>950</real>
+			<real>1050</real>
 			<key>ypos</key>
-			<real>625</real>
+			<real>655</real>
 		</dict>
 		<key>33BF8A0E-B7AA-495E-B89F-1F8239DAECBE</key>
 		<dict>
@@ -1177,6 +1227,22 @@ Basic usage (`ppp` ↩️)
 			<real>30</real>
 			<key>ypos</key>
 			<real>195</real>
+		</dict>
+		<key>E4242C82-3B1A-49E3-A259-5C2325D8091C</key>
+		<dict>
+			<key>note</key>
+			<string>copy gDrive link to clipboard</string>
+			<key>xpos</key>
+			<real>1210</real>
+			<key>ypos</key>
+			<real>810</real>
+		</dict>
+		<key>E672F63F-3777-4A66-939B-FD71F3E35019</key>
+		<dict>
+			<key>xpos</key>
+			<real>885</real>
+			<key>ypos</key>
+			<real>675</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
