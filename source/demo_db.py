@@ -12,7 +12,7 @@ import json
 
 
 	
-def importingCompleteLibrary (myFile):  # to import complete library before filtering, not used here
+def importingCompleteLibrary(myFile):  # to import complete library before filtering, not used here
     ## reading JSON data in
     with open(myFile, "r") as read_file:
         json_data = json.load(read_file)
@@ -22,7 +22,10 @@ def importingCompleteLibrary (myFile):  # to import complete library before filt
     with open("demo_library.json", "w") as f:
         json.dump(mySubset, f,indent=4)
 
-myFile = 'path/to/library'
-importingCompleteLibrary(myFile)
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) < 2:
+        sys.exit("usage: demo_db.py /path/to/paperpile-library.json")
+    importingCompleteLibrary(sys.argv[1])
 
 

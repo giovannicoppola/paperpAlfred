@@ -1,5 +1,16 @@
 # paperpAlfred — Code Review
 
+> **Status:** findings 1–12, plus the hygiene and documentation items, were
+> fixed in the follow-up commit on this branch and are covered by
+> `source/tests/test_index.py` (31 tests). This document is kept as the record
+> of what was wrong and why. Items still open: adding a `LICENSE` file (a call
+> for the author to make), trimming the duplicated icon assets, and excluding
+> `__pycache__` from the release bundle at packaging time.
+>
+> **Packaging note:** the workflow gained a new file, `source/common.py`. It
+> must be included when exporting the `.alfredworkflow`, or the Script Filters
+> will fail to import.
+
 Reviewed at commit `1bde18b`, workflow version 2.3. Every finding below was
 reproduced by running the actual code against `source/demo_library.json`
 (and mutated copies of it), not inferred from reading.
