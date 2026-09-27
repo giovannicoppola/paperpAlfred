@@ -121,14 +121,17 @@ Once the right item is found, the user has seven options to act on it:
 
 <h1 id="changelog">Changelog</h1>
 
-- unreleased: robustness pass. The index is now built atomically, so a rebuild
-  interrupted by typing can no longer leave the workflow permanently broken;
+- 09-27-2026: version 2.4, robustness pass. Fixes the workflow failing to index
+  current Paperpile exports (records without attachments stopped the rebuild).
+  The index is now built atomically, so a rebuild interrupted by typing can no longer leave the workflow permanently broken;
   records without authors keep their own year; libraries with no folders index
   correctly; labels and folders containing commas keep their identity;
   `ppl`/`ppf`/`ppty` build the index themselves and stay in sync with the
   library; query syntax characters no longer raise errors; full references now
   include the volume. Search moved to FTS5, so accented characters fold
   (searching `Muller` finds `Müller`).
+- 11-12-2024: version 2.3 (adapting to a minor change in the JSON file)
+- 04-29-2023: version 2.2 (bug fix)
 - 12-04-2022: version 2.1 (Alfred 5)
 - 03-15-2022: version 2.0 (Python3, removed dependencies)
 - 03-17-2021: version 1.0
