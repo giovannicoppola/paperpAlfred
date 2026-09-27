@@ -5,199 +5,87 @@
 # MIT Licence. See http://opensource.org/licenses/MIT
 #
 # November 2020 - March 2021
-#https://github.com/giovannicoppola/paperpAlfred/blob/main/README.md
-
+# https://github.com/giovannicoppola/paperpAlfred/blob/main/README.md
+#
 # February 2022, updated version for Python3
 
-
-
-import sys
 import os
-import json
 import sqlite3
+import sys
 
+from common import build_match_query, emit, ensure_index, fail
+from config import INDEX_DB, MAXRES
 
+ensure_index()
 
-from config import INDEX_DB, MAXRES, LIBRARY_FILE, TIMESTAMP
-from build_db import *
-
-
-
-
-try: 
-    
-    new_time = int(os.path.getmtime(LIBRARY_FILE))
-    
-except:   #error if the library file is missing
-    result= {"items": [{
-    "title": "Library file missing!",
-    "subtitle": f"cannot locate the Paperpile library file: {LIBRARY_FILE}, {MAXRES}",
-    "arg": "",
-    "icon": {
-
-            "path": "icons/Warning.png"
-        }
-    }]}
-    print (json.dumps(result))
-    sys.exit("Script aborted – file missing")
-
-if not os.path.exists(TIMESTAMP):
-    with open(TIMESTAMP, "w") as f:
-        f.write(str(new_time))
-        f.close
-    createLibrary (LIBRARY_FILE)
-    
-
-
-## checking the timestamp
-with open(TIMESTAMP) as f:
-    old_time = int(f.readline()) #getting the old UNIX timestamp
-    f.close
-
-
-if new_time != old_time:
-    
-    with open(TIMESTAMP, "w") as f:
-        f.write(str(new_time))
-        f.close
-    
-    createLibrary (LIBRARY_FILE)
-    
-
-# getting the user query
-myQuery=sys.argv[1]
-
-result = {"items": []}
+myQuery = sys.argv[1] if len(sys.argv) > 1 else ''
 
 orderSel = "DESC"
-
-if "--a" in myQuery:
+if "--a" in myQuery.split():
     orderSel = "ASC"
-    myQuery = myQuery.replace (' --a','')
+    myQuery = ' '.join(t for t in myQuery.split() if t != '--a')
 
-#getting the source of the script
-mySource=os.path.expanduser(os.getenv('mySource', ''))
-myLabelID=os.path.expanduser(os.getenv('myLabelID', ''))
-myFolderID=os.path.expanduser(os.getenv('myFolderID', ''))
-myTypeID=os.path.expanduser(os.getenv('myTypeID', ''))
+# The label/folder/type pickers hand us the selected ID to scope the search.
+mySource = os.getenv('mySource', '')
+scope = {
+    'label': ('labelID', os.getenv('myLabelID', '')),
+    'folder': ('folderID', os.getenv('myFolderID', '')),
+    'type': ('type', os.getenv('myTypeID', '')),
+}.get(mySource)
 
-if mySource == "label":
-    myQuery = "labelID:"+myLabelID+' '+myQuery
-    
-if mySource == "folder":
-    myQuery = "folderID:"+myFolderID+' '+myQuery
-    
-if mySource == "type":
-    myQuery = "type:"+myTypeID+' '+myQuery
-    
+matchQuery = build_match_query(myQuery)
 
+if scope and scope[1]:
+    scopeQuery = build_match_query('{}:{}'.format(*scope), prefix_last=False)
+    matchQuery = '{} {}'.format(scopeQuery, matchQuery) if matchQuery else scopeQuery
 
-# Search!
-db = sqlite3.connect(INDEX_DB)
-cursor = db.cursor()
-
-
-try:
-    # cursor.execute(""" SELECT _id, abstract, citekey, fileName,first, folder,folderID, fullReference, journal, label,labelID, last, pdfFlag, pmid, subtitle, title, gdrive_id, type, year
-    #                         FROM papers WHERE abstract || citekey  LIKE ?
-    #                     ORDER BY year """ +orderSel + """ LIMIT """ + MAXRES + """ """, (myQuery,))
-    
-    
-    cursor.execute("""SELECT _id,abstract, citekey, fileName, first, folder,folderID, fullReference, journal, label,labelID, last, pdfFlag, pmid, subtitle, title, gdrive_id, type, year FROM
-                        (SELECT papers
-                            AS r, _id, abstract, citekey, fileName,first, folder,folderID, fullReference, journal, label,labelID, last, pdfFlag, pmid, subtitle, title, gdrive_id, type, year
-                            FROM papers WHERE papers MATCH ?)
-                        ORDER BY year """ +orderSel + """ LIMIT """ + MAXRES + """ """, (myQuery + '*',))
-    
-    
-    
-    
-    results = cursor.fetchall()
-
-except sqlite3.OperationalError as err:
-    # If the query is invalid, show an appropriate warning and exit
-    result= {"items": [{
-    "title": "Error: " + str(err),
-    "subtitle": "Invalid Query",
-    "arg": ";;",
-    "icon": {
-
-            "path": "icons/Warning.png"
-        }
-    }]}
-    print (json.dumps(result))
-    raise err
-
-    
-
-
-if (not myQuery):
-    introDial= {"items": [{
+if not matchQuery:
+    emit([{
         "title": "Welcome to paperpAlfred 👋",
         "subtitle": "Enter a query or ↩️ for help",
         "valid": True,
         "arg": "ShowHelpWindow",
-        "icon": {
-            "path": "icons/paperpAlfred_ico.png"
-            }
-            }]}
-    print (json.dumps(introDial))
-    
-    
-    
+        "icon": {"path": "icons/paperpAlfred_ico.png"},
+    }])
+    sys.exit(0)
 
-    
+db = sqlite3.connect(INDEX_DB)
+try:
+    results = db.execute(
+        """SELECT _id, abstract, citekey, fileName, first, folder, folderID,
+                  fullReference, journal, label, labelID, last, pdfFlag, pmid,
+                  subtitle, title, gdrive_id, type, year
+             FROM papers
+            WHERE papers MATCH ?
+         ORDER BY CAST(year AS INTEGER) """ + orderSel + """, rank
+            LIMIT ?""", (matchQuery, MAXRES)).fetchall()
+except sqlite3.OperationalError as err:
+    fail("Error: " + str(err), "Invalid Query")
+finally:
+    db.close()
 
+if not results:
+    fail("No matches", "Try a different query")
 
-# Output results to Alfred
-if (myQuery and results):
-    myResLen = str(len (results))
-    countR=1
-    for (_id, abstract, citekey, fileName, first, folder,folderID, fullReference, journal, label,labelID, last, pdfFlag, pmid, subtitle, title, gdrive_id, type, year) in results:
-        aut_journ =  str(countR) + '/' + myResLen +  pdfFlag + subtitle + " 🏷" + label
-        
+myResLen = str(len(results))
+items = []
+for countR, (_id, abstract, citekey, fileName, first, folder, folderID,
+             fullReference, journal, label, labelID, last, pdfFlag, pmid,
+             subtitle, title, gdrive_id, pubType, year) in enumerate(results, 1):
+    items.append({
+        "title": title,
+        "subtitle": '{}/{}{}{} 🏷{}'.format(countR, myResLen, pdfFlag, subtitle, label),
+        "variables": {
+            "myFileName": fileName,
+            "FullReference": fullReference,
+            "shortPMID": subtitle + " " + pmid,
+            "myAbstract": abstract,
+            "myCitekey": citekey,
+            "gdrive_id": gdrive_id,
+            "paperpileID": _id,
+        },
+        "valid": True,
+        "icon": {"path": "icons/paperpAlfred_ico.png"},
+    })
 
-        result["items"].append({
-            "title": title,
-            "subtitle": aut_journ,
-            "variables": {
-                "myFileName": fileName,
-                "FullReference": fullReference,
-                "shortPMID": subtitle+" "+pmid,
-                "myAbstract": abstract,
-                "myCitekey": citekey,
-                "gdrive_id": gdrive_id,
-                "paperpileID": _id
-            },
-            "valid": True,
-            
-            "icon": {
-
-                    "path": "icons/paperpAlfred_ico.png"
-                }
-            })
-        countR += 1  
-
-
-    print (json.dumps(result))
-     
-
-
-
-if (myQuery and not results):
-    result= {"items": [{
-    "title": "No matches",
-    "subtitle": "Try a different query",
-    
-    "arg": "",
-    "icon": {
-
-            "path": "icons/Warning.png"
-        }
-    }]}
-    
-    print (json.dumps(result))
-    
-    
-
-
+emit(items)

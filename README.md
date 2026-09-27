@@ -61,16 +61,15 @@ src="https://img.shields.io/github/downloads/giovannicoppola/paperpAlfred/total?
 ### Filter by label first
 - entering `ppl`  (or optional hotkey) will show a list of labels, the number of items in each label, and the count of item types
 - select the label by pressing `return`. PaperpAlfred will now search within that label
-	- `option-return (⌥⏎)` will open the label in Paperpile
+	- `control-return (⌃⏎)` will open the label in Paperpile
 ### Filter by folder first
 - entering `ppf` (or optional hotkey) will show a list of folders, the number of items in each folder, and the count of item types
 - select the folder by pressing `return`. PaperpAlfred will now search within that folder. 
-	- `option-return (⌥⏎)` will open the folder in Paperpile
+	- `control-return (⌃⏎)` will open the folder in Paperpile
 - Note: Added feature ✅ the Paperpile web interface does not allow to search by folder
 ### Filter by type first
 - entering `ppty` will show a list of publication types and the number of items in each
-- select the folder by pressing `return`. paperpAlfred will now search within that item type
-	- `shift-return (⇧⏎)` will open the folder in Paperpile
+- select the type by pressing `return`. paperpAlfred will now search within that item type
        
 ## Advanced search
 - enter `field:`, where `field` is any of the fields below. Example: `year:2022`
@@ -110,7 +109,6 @@ Once the right item is found, the user has seven options to act on it:
 <h1 id="known-issues">Known Issues</h1>
 
 - incomplete records will not be imported
-- special characters (e.g. ü) will need to be entered in order to match the record
 - File opening is currently using a name search. The Paperpile file naming logic is not entirely clear to me, the folder structure is deprecated and there might be a small number of cases where the PDF might not be retrievable via paperpAlfred. Google drive view should still work in these cases. 
 - Currently tested mainly with research papers, reviews etc. There might be untested use cases for other types of publications. 
 - label and folder search in the main window (i.e. using `label:` and `folder:`) will not be exact matches (e.g. AD will also return GWAS_AD). Match will be exact when starting from folder and label window.
@@ -123,6 +121,14 @@ Once the right item is found, the user has seven options to act on it:
 
 <h1 id="changelog">Changelog</h1>
 
+- unreleased: robustness pass. The index is now built atomically, so a rebuild
+  interrupted by typing can no longer leave the workflow permanently broken;
+  records without authors keep their own year; libraries with no folders index
+  correctly; labels and folders containing commas keep their identity;
+  `ppl`/`ppf`/`ppty` build the index themselves and stay in sync with the
+  library; query syntax characters no longer raise errors; full references now
+  include the volume. Search moved to FTS5, so accented characters fold
+  (searching `Muller` finds `Müller`).
 - 12-04-2022: version 2.1 (Alfred 5)
 - 03-15-2022: version 2.0 (Python3, removed dependencies)
 - 03-17-2021: version 1.0
